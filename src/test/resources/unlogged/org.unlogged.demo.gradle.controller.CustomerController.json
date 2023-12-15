@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.gradle.controller.CustomerController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.controller.CustomerController#getCustomerProfile#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 23, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "eea9ccdf-67d4-4897-8d7c-a843be0fa115",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "228bdfa3-dc67-41fe-bf5b-5b8ca130c2d7",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "3a11950f-b023-4c66-ba2a-1835a8a1586b",
+      "name" : "case 0",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1702641706568,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 994704465,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "777d5471-c145-4b7d-9e2a-a7ec8ce16274" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.gradle.controller.CustomerController",
+        "methodHash" : 1335237380
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
