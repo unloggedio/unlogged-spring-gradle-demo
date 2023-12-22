@@ -8,17 +8,17 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
-          "id" : "eea9ccdf-67d4-4897-8d7c-a843be0fa115",
+          "id" : "7e848756-f523-43bc-8932-889ec26fc36f",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "228bdfa3-dc67-41fe-bf5b-5b8ca130c2d7",
+        "id" : "14ebf945-05cd-400f-8453-7559cce11b07",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "3a11950f-b023-4c66-ba2a-1835a8a1586b",
+      "candidateId" : "1b63abaf-4509-4e41-a7bf-948a6eade68e",
       "name" : "case 0",
       "description" : "assert that the response value matches expected value",
       "methodArguments" : [ "0" ],
@@ -27,18 +27,58 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 1702641706568,
+        "timestamp" : 1703236866692,
         "candidateStatus" : "PASSING"
       },
-      "sessionIdentifier" : 994704465,
+      "sessionIdentifier" : 1626708859,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
-      "mockIds" : [ "777d5471-c145-4b7d-9e2a-a7ec8ce16274" ],
+      "mockIds" : [ "7bcff8c5-53e1-4e52-a875-d200c3c69297" ],
       "exception" : false,
       "method" : {
         "name" : "getCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
         "className" : "org.unlogged.demo.gradle.controller.CustomerController",
         "methodHash" : 1335237380
+      }
+    } ],
+    "org.unlogged.demo.gradle.controller.CustomerController#saveCustomerProfile#(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 30 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "db9c0133-57c0-4bc4-be9c-f41a48ad87a6",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "15a05522-8518-4bc7-bd89-e930b7a5674b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7c17a272-ac59-4051-843e-815efa9a03aa",
+      "name" : "save 0",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "{\"customerName\":\"string\",\"dateOfBirth\":\"string\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"string\"]}" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703236898068,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 2077885094,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "d297aeda-6105-473b-ab38-97f57c4722df" ],
+      "exception" : false,
+      "method" : {
+        "name" : "saveCustomerProfile",
+        "signature" : "(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.gradle.controller.CustomerController",
+        "methodHash" : -916697858
       }
     } ]
   },
