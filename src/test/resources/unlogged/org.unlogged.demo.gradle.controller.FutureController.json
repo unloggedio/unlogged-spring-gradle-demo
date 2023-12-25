@@ -1,0 +1,86 @@
+{
+  "classname" : "org.unlogged.demo.gradle.controller.FutureController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.controller.FutureController#getFutureResult#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 16, 17 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"yolo\"",
+          "id" : "74165628-0e58-4175-b427-95bf20481d07",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "33ba1aaf-c2c8-4388-bfa8-835cf6e4c269",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "5ce2b0ee-8f76-4b7b-9686-dc79b4149d7c",
+      "name" : "default case - getFutureResult - should pass",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"yolo\"",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703506648029,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1461105300,
+      "probSerializedValue" : "InlvbG8i",
+      "mockIds" : [ "79141c6e-e911-4dbd-82a8-be2829b765f0" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getFutureResult",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.gradle.controller.FutureController",
+        "methodHash" : -1635632615
+      }
+    } ],
+    "org.unlogged.demo.gradle.controller.FutureController#getFutureResultOptional#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 21, 22 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"string\"",
+          "id" : "4ffd2621-a3a2-4ea1-a81b-5ceee8d9c199",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "77aa08d2-38c0-4fbe-b77b-eff70359d987",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "571cd772-8aef-4842-a422-884c83e50240",
+      "name" : "getFutureOptional - default",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "\"string\"",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703506730525,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 289785869,
+      "probSerializedValue" : "InN0cmluZyI=",
+      "mockIds" : [ "26dec6f3-9612-42d9-a111-d75be4f40d86" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getFutureResultOptional",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.gradle.controller.FutureController",
+        "methodHash" : -1498505688
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

@@ -1,0 +1,107 @@
+{
+  "classname" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.gradle.repository.CustomerProfileRepository#removeCustomer#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "id" : "b73d82a1-b0ae-46ca-bd30-0df8a3148402",
+      "name" : "cs - remove 0 mock",
+      "fieldTypeName" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "removeCustomer",
+      "whenParameter" : [ {
+        "name" : "customerID",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.gradle.repository.CustomerProfileRepository#fetchCustomerProfile#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "id" : "acafd831-1565-4fb5-8d23-a78e21be95b1",
+      "name" : "customer service - fetch c0 mock",
+      "fieldTypeName" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : "customerID",
+        "type" : "ANY_OF_TYPE",
+        "value" : "long"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.gradle.repository.CustomerProfileRepository#getAsianCustomers#()Ljava/util/List;" : [ {
+      "id" : "58ec6902-072d-4ca0-b650-39fbee5213cc",
+      "name" : "basic list - asian customer mock",
+      "fieldTypeName" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "getAsianCustomers",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[ {\n  \"customerid\" : 0,\n  \"customername\" : \"string\",\n  \"dateofbirth\" : \"string\",\n  \"email\" : \"string\",\n  \"contactnumber\" : \"string\",\n  \"address\" : \"Japan\",\n  \"referralcodes\" : [ \"string\" ]\n} ]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.gradle.models.CustomerProfile>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    }, {
+      "id" : "cb9dbde0-e3f7-4515-b35e-1a3b7b3b0366",
+      "name" : "asia flow - high score",
+      "fieldTypeName" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "getAsianCustomers",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[ {\n  \"customerid\" : 50,\n  \"customername\" : \"string\",\n  \"dateofbirth\" : \"string\",\n  \"email\" : \"string\",\n  \"contactnumber\" : \"string\",\n  \"address\" : \"Japan\",\n  \"referralcodes\" : [ \"string\", \"string\", \"string\", \"string\", \"string\" ]\n} ]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.gradle.models.CustomerProfile>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.gradle.repository.CustomerProfileRepository#save#(Lorg/unlogged/demo/gradle/models/CustomerProfile;)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "id" : "42945ecc-6a53-4d71-bf75-d55ad2b5a3d7",
+      "name" : "cs r - save ref 0 mock",
+      "fieldTypeName" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : "profile",
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.gradle.models.CustomerProfile"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

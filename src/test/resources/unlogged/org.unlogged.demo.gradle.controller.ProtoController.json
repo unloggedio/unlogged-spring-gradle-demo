@@ -1,0 +1,47 @@
+{
+  "classname" : "org.unlogged.demo.gradle.controller.ProtoController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.controller.ProtoController#getAddressbook#()Lorg/unlogged/demo/gradle/protos/generated/AddressBook;" : [ {
+      "lineNumbers" : [ 43, 44, 45, 46 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"memoizedIsInitialized\":1}",
+          "id" : "13267833-21ed-4d4b-8596-6f68c5f35524",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "3c78c286-658d-40c0-b6d8-2ac681236f4c",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "cc5d17a6-d55f-4b2f-8050-f2d8fd3e79a8",
+      "name" : "proto-addressbook - default",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ ],
+      "returnValue" : "{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"people_\":[{\"memoizedHashCode\":0,\"memoizedSize\":-1,\"unknownFields\":{\"fields\":{}},\"bitField0_\":1,\"name_\":\"Amg\",\"id_\":0,\"email_\":\"\",\"phones_\":[],\"memoizedIsInitialized\":1}],\"memoizedIsInitialized\":1}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.protos.generated.AddressBook",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703506776219,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 123047008,
+      "probSerializedValue" : "eyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJwZW9wbGVfIjpbeyJtZW1vaXplZEhhc2hDb2RlIjowLCJtZW1vaXplZFNpemUiOi0xLCJ1bmtub3duRmllbGRzIjp7ImZpZWxkcyI6e319LCJiaXRGaWVsZDBfIjoxLCJuYW1lXyI6IkFtZyIsImlkXyI6MCwiZW1haWxfIjoiIiwicGhvbmVzXyI6W10sIm1lbW9pemVkSXNJbml0aWFsaXplZCI6MX1dLCJtZW1vaXplZElzSW5pdGlhbGl6ZWQiOjF9",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAddressbook",
+        "signature" : "()Lorg/unlogged/demo/gradle/protos/generated/AddressBook;",
+        "className" : "org.unlogged.demo.gradle.controller.ProtoController",
+        "methodHash" : 753748090
+      }
+    } ],
+    "org.unlogged.demo.gradle.controller.ProtoController#convertAddressBook#()Ljava/lang/String;" : [ ]
+  },
+  "declaredMockMap" : { }
+}

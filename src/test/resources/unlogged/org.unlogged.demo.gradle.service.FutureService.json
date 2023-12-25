@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.gradle.service.FutureService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.gradle.service.FutureService#doSomething#()Ljava/util/concurrent/CompletableFuture;" : [ {
+      "id" : "79141c6e-e911-4dbd-82a8-be2829b765f0",
+      "name" : "default mock - getFutureResult",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.FutureService",
+      "sourceClassName" : "org.unlogged.demo.gradle.controller.FutureController",
+      "fieldName" : "futureService",
+      "methodName" : "doSomething",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"yolo\"",
+          "returnValueType" : "REAL",
+          "className" : "java.util.concurrent.CompletableFuture<java.lang.String>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.gradle.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "id" : "26dec6f3-9612-42d9-a111-d75be4f40d86",
+      "name" : "optional mock - string",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.FutureService",
+      "sourceClassName" : "org.unlogged.demo.gradle.controller.FutureController",
+      "fieldName" : "futureService",
+      "methodName" : "doSomethingOptional",
+      "whenParameter" : [ {
+        "name" : "optional",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "\"string\"",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<java.lang.String>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}
