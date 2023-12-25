@@ -1,44 +1,164 @@
 {
   "classname" : "org.unlogged.demo.gradle.controller.CustomerController",
   "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.controller.CustomerController#isCustomerEligibleForLoyaltyProgram#(J)Lorg/unlogged/demo/gradle/models/CustomerScoreCard;" : [ {
+      "lineNumbers" : [ 44 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerProfile\":{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},\"score\":50,\"isEligible\":true}",
+          "id" : "6c02f1ad-7e6a-4570-a29a-2b1c964f86b9",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "b029143c-0131-4407-9db4-339571a6cc33",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "35b99da8-d45e-4078-8fa6-20517c47e899",
+      "name" : "customer 0 should be eligible - should pass",
+      "description" : "should pass",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerProfile\":{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},\"score\":50,\"isEligible\":true}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.CustomerScoreCard",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703486708761,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -109109209,
+      "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX0sInNjb3JlIjo1MCwiaXNFbGlnaWJsZSI6dHJ1ZX0=",
+      "mockIds" : [ "aff745f0-393d-4dc9-92ad-f4bab1ced493" ],
+      "exception" : false,
+      "method" : {
+        "name" : "isCustomerEligibleForLoyaltyProgram",
+        "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerScoreCard;",
+        "className" : "org.unlogged.demo.gradle.controller.CustomerController",
+        "methodHash" : -2119348806
+      }
+    } ],
     "org.unlogged.demo.gradle.controller.CustomerController#getCustomerProfile#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 23, 24 ],
       "testAssertions" : {
         "subAssertions" : [ {
           "subAssertions" : [ ],
           "expression" : "SELF",
-          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
-          "id" : "7e848756-f523-43bc-8932-889ec26fc36f",
-          "assertionType" : "EQUAL",
+          "expectedValue" : "{\"customerid\":0}",
+          "id" : "0fb1d519-a552-42eb-ae78-d27b639c5653",
+          "assertionType" : "STARTS_WITH",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "14ebf945-05cd-400f-8453-7559cce11b07",
+        "id" : "a1fe648c-857b-46c3-9f43-cb3e4ec5791c",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "1b63abaf-4509-4e41-a7bf-948a6eade68e",
-      "name" : "case 0",
-      "description" : "assert that the response value matches expected value",
+      "candidateId" : "af77b196-4c6f-4f9e-aeb5-cba5c733bf1f",
+      "name" : "Get customer 0 - should fail",
+      "description" : "case saved with startsWith {\"customerid\":0}, mock should return id : 1.",
       "methodArguments" : [ "0" ],
       "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
       "returnValueClassname" : "org.unlogged.demo.gradle.models.CustomerProfile",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 1703236866692,
+        "timestamp" : 1703486453465,
         "candidateStatus" : "PASSING"
       },
-      "sessionIdentifier" : 1626708859,
+      "sessionIdentifier" : -1559795284,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
-      "mockIds" : [ "7bcff8c5-53e1-4e52-a875-d200c3c69297" ],
+      "mockIds" : [ "0e841b17-645e-45a4-8005-04452453f3cc" ],
       "exception" : false,
       "method" : {
         "name" : "getCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
         "className" : "org.unlogged.demo.gradle.controller.CustomerController",
         "methodHash" : 1335237380
+      }
+    } ],
+    "org.unlogged.demo.gradle.controller.CustomerController#removeCustomerProfile#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 35 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "448a4ce0-35c5-4afe-b193-6c3aee58fe8d",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2ed9fc60-7aca-4e9e-b646-65a916fef14c",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7d41161a-4cab-49ba-8909-53a2031382c2",
+      "name" : "remove customer 0 - should pass",
+      "description" : "should pass",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703486566028,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 942444888,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "f9bd6f73-97a3-43e9-b321-b7aeb5a74e9e" ],
+      "exception" : false,
+      "method" : {
+        "name" : "removeCustomerProfile",
+        "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.gradle.controller.CustomerController",
+        "methodHash" : 851606882
+      }
+    } ],
+    "org.unlogged.demo.gradle.controller.CustomerController#generateNeReferralCode#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 40 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"ref-1\",\"new ref\"]}",
+          "id" : "75293b8a-5364-4db9-bfed-761d399e84f9",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "1644fafd-3e36-4b97-97a8-45d5a6c075c1",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "cccc4447-0859-4e30-9a19-ffe8ce616c31",
+      "name" : "add ref codes to customer 0 - should pass",
+      "description" : "should pass.",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"ref-1\",\"new ref\"]}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703486640643,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -2064419330,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInJlZi0xIiwibmV3IHJlZiJdfQ==",
+      "mockIds" : [ "ce127715-71ac-4547-ac8f-e1e4f9c4d15b" ],
+      "exception" : false,
+      "method" : {
+        "name" : "generateNeReferralCode",
+        "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.gradle.controller.CustomerController",
+        "methodHash" : -732548036
       }
     } ],
     "org.unlogged.demo.gradle.controller.CustomerController#saveCustomerProfile#(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
@@ -48,31 +168,31 @@
           "subAssertions" : [ ],
           "expression" : "SELF",
           "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
-          "id" : "db9c0133-57c0-4bc4-be9c-f41a48ad87a6",
+          "id" : "f06198af-a208-4ee9-a732-10216cde1632",
           "assertionType" : "EQUAL",
           "key" : "/"
         } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "15a05522-8518-4bc7-bd89-e930b7a5674b",
+        "id" : "b8c58e76-2cdb-43d3-895f-740c2733ede1",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "7c17a272-ac59-4051-843e-815efa9a03aa",
-      "name" : "save 0",
-      "description" : "assert that the response value matches expected value",
+      "candidateId" : "d25f6ef0-1708-4d99-8fb4-b3a7b3cbc087",
+      "name" : "save case 0 - should pass",
+      "description" : "should pass.",
       "methodArguments" : [ "{\"customerName\":\"string\",\"dateOfBirth\":\"string\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"string\"]}" ],
       "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
       "returnValueClassname" : "org.unlogged.demo.gradle.models.CustomerProfile",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 1703236898068,
+        "timestamp" : 1703486773175,
         "candidateStatus" : "PASSING"
       },
-      "sessionIdentifier" : 2077885094,
+      "sessionIdentifier" : -57618459,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
-      "mockIds" : [ "d297aeda-6105-473b-ab38-97f57c4722df" ],
+      "mockIds" : [ "ae6585a4-5af4-410a-88bd-15cd3c2e4d51" ],
       "exception" : false,
       "method" : {
         "name" : "saveCustomerProfile",

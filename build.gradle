@@ -35,8 +35,8 @@ dependencies {
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-hibernate5'
 
-	implementation 'video.bug:unlogged-sdk:0.1.35'
-	annotationProcessor 'video.bug:unlogged-sdk:0.1.35'
+	implementation 'video.bug:unlogged-sdk:0.1.36'
+	annotationProcessor 'video.bug:unlogged-sdk:0.1.36'
 
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis:'+springbootVersion
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:'+springbootVersion
@@ -54,6 +54,10 @@ test {
 	useJUnitPlatform()
 	testLogging.showStandardStreams = true
 	finalizedBy jacocoTestReport
+	reports {
+		junitXml.outputLocation = layout.buildDirectory.dir("junit-xml-report")
+		html.outputLocation = layout.buildDirectory.dir("junit-html-report")
+	}
 }
 
 jacocoTestReport {
