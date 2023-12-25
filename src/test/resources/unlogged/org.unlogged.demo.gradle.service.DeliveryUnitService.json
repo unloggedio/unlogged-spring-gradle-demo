@@ -1,0 +1,50 @@
+{
+  "classname" : "org.unlogged.demo.gradle.service.DeliveryUnitService",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.gradle.service.DeliveryUnitService#getAllDeliveryUnits#()Ljava/util/List;" : [ {
+      "id" : "7ce73ad7-a5a0-4a17-b564-79ca0c6b68af",
+      "name" : "mock response deliveryUnitService.getAllDeliveryUnits",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.DeliveryUnitService",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.DeliveryService",
+      "fieldName" : "deliveryUnitService",
+      "methodName" : "getAllDeliveryUnits",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\": \"string\", \"unitName\": \"string\", \"available\": true, \"location\": \"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.gradle.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.gradle.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;" : [ {
+      "id" : "32aeda67-0fe4-495f-99d3-64ff8073622a",
+      "name" : "mock response deliveryUnitService.getAvailableUnitsForLocation",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.DeliveryUnitService",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.DeliveryService",
+      "fieldName" : "deliveryUnitService",
+      "methodName" : "getAvailableUnitsForLocation",
+      "whenParameter" : [ {
+        "name" : "deliveryUnits",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.util.List<org.unlogged.demo.gradle.models.redis.DeliveryUnit>"
+      }, {
+        "name" : "location",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"id\": \"string\", \"unitName\": \"string\", \"available\": true, \"location\": \"string\"}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List<org.unlogged.demo.gradle.models.redis.DeliveryUnit>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}
