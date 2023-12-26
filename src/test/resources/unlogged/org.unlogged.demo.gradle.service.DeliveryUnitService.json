@@ -1,46 +1,6 @@
 {
   "classname" : "org.unlogged.demo.gradle.service.DeliveryUnitService",
   "storedCandidateMap" : {
-    "org.unlogged.demo.gradle.service.DeliveryUnitService#getAvailableUnitsForLocation#(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;" : [ {
-      "lineNumbers" : [ 20, 21, 22 ],
-      "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "[{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}]",
-          "id" : "0acb9900-243c-45a3-87df-f9274f8eca24",
-          "assertionType" : "EQUAL",
-          "key" : "/"
-        } ],
-        "expression" : "SELF",
-        "expectedValue" : null,
-        "id" : "8a9f032e-69db-4c0a-ae10-ee67bc1cfbad",
-        "assertionType" : "ALLOF",
-        "key" : null
-      },
-      "candidateId" : "cec6aefa-d5b1-441f-a796-ae356aa7e918",
-      "name" : "default filter for available units",
-      "description" : "assert that the response value matches expected value",
-      "methodArguments" : [ "[{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}]", "\"string\"" ],
-      "returnValue" : "[{\"id\":\"string\",\"unitName\":\"string\",\"available\":true,\"location\":\"string\"}]",
-      "returnValueClassname" : "java.lang.Object",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 1703567420392,
-        "candidateStatus" : "PASSING"
-      },
-      "sessionIdentifier" : 1215456780,
-      "probSerializedValue" : "W3siaWQiOiJzdHJpbmciLCJ1bml0TmFtZSI6InN0cmluZyIsImF2YWlsYWJsZSI6dHJ1ZSwibG9jYXRpb24iOiJzdHJpbmcifV0=",
-      "mockIds" : [ ],
-      "exception" : false,
-      "method" : {
-        "name" : "getAvailableUnitsForLocation",
-        "signature" : "(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;",
-        "className" : "org.unlogged.demo.gradle.service.DeliveryUnitService",
-        "methodHash" : -496847187
-      }
-    } ],
     "org.unlogged.demo.gradle.service.DeliveryUnitService#clearAllUnits#()V" : [ ]
   },
   "declaredMockMap" : {
