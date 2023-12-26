@@ -160,6 +160,46 @@
         "className" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
         "methodHash" : -833180765
       }
+    } ],
+    "org.unlogged.demo.gradle.repository.CustomerProfileRepository#removeCustomer#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 33, 34, 35 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+          "id" : "1efaeb51-c181-4bd3-af49-b40022fcc711",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "c8d715eb-6dcb-48ab-88d5-2ff5a5ed8241",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "75183c15-8361-4ad6-ba6e-194d993655ae",
+      "name" : "Remove default customer - should pass",
+      "description" : "should pass",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703574212933,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -205388171,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
+      "mockIds" : [ "b0f2d3a7-dcda-45da-8a51-871599e0f867" ],
+      "exception" : false,
+      "method" : {
+        "name" : "removeCustomer",
+        "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
+        "methodHash" : 0
+      }
     } ]
   },
   "declaredMockMap" : {
