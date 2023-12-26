@@ -41,6 +41,46 @@
         "methodHash" : -1382304313
       }
     } ],
+    "org.unlogged.demo.gradle.controller.StudentController#getAllStudents#()Ljava/util/Collection;" : [ {
+      "lineNumbers" : [ 25 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
+          "id" : "b41a6310-579e-433e-9e53-d32625ecf4dc",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "9584c636-2662-4c8a-9efa-5552dc79eae1",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "2df96818-83ba-4d20-939e-9a5156a528ca",
+      "name" : "Default student list - should pass",
+      "description" : "should pass",
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703573502725,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1686352130,
+      "probSerializedValue" : "W3siaWQiOiJzdHJpbmciLCJuYW1lIjoic3RyaW5nIiwiZ2VuZGVyIjoiTUFMRSIsImdyYWRlIjowfV0=",
+      "mockIds" : [ "0e9e32d5-e36d-47f4-9fd4-39de5a6ee6df" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAllStudents",
+        "signature" : "()Ljava/util/Collection;",
+        "className" : "org.unlogged.demo.gradle.controller.StudentController",
+        "methodHash" : 1983134265
+      }
+    } ],
     "org.unlogged.demo.gradle.controller.StudentController#deleteStudent#(Ljava/lang/String;)Z" : [ {
       "lineNumbers" : [ 46 ],
       "testAssertions" : {

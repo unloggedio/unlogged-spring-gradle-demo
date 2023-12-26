@@ -170,6 +170,24 @@
         },
         "methodExitType" : "NORMAL"
       } ]
+    } ],
+    "org.unlogged.demo.gradle.service.StudentService#findAll#()Ljava/util/List;" : [ {
+      "id" : "0e9e32d5-e36d-47f4-9fd4-39de5a6ee6df",
+      "name" : "mock student list",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.gradle.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\n  \"id\" : \"string\",\n  \"name\" : \"string\",\n  \"gender\" : \"MALE\",\n  \"grade\" : 0\n}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Collection<org.unlogged.demo.gradle.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
     } ]
   }
 }
