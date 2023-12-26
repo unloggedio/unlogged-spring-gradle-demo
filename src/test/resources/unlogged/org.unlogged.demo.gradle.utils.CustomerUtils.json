@@ -1,0 +1,85 @@
+{
+  "classname" : "org.unlogged.demo.gradle.utils.CustomerUtils",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.utils.CustomerUtils#getLocationFromAddress#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 6, 7, 8 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Bangalore\"",
+          "id" : "a6f26bfa-1efd-42b1-82e1-889be85b990b",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "9e4ffa4b-da14-4c54-83e1-7adca5c346ce",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "60daa075-bb9c-4bd0-b55d-3060f0520c90",
+      "name" : "Bangalore case - should pass",
+      "description" : "should pass",
+      "methodArguments" : [ "\"Kengeri, Bangalore\"" ],
+      "returnValue" : "\"Bangalore\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703569673990,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1494386500,
+      "probSerializedValue" : "IkJhbmdhbG9yZSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.gradle.utils.CustomerUtils",
+        "methodHash" : 40623741
+      }
+    }, {
+      "lineNumbers" : [ 6, 7, 8 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Kengeri\"",
+          "id" : "40cef9af-3976-4405-9271-f3908f0a3963",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "2bdf006e-e3cf-43c1-b470-8e07af060dd7",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "837ea3b3-774a-4b36-af2b-00e3405b83cd",
+      "name" : "No parse case - Kengeri",
+      "description" : "Should pass",
+      "methodArguments" : [ "\"Kengeri\"" ],
+      "returnValue" : "\"Kengeri\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703571284935,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 1799979535,
+      "probSerializedValue" : "Iktlbmdlcmki",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.gradle.utils.CustomerUtils",
+        "methodHash" : 40623741
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

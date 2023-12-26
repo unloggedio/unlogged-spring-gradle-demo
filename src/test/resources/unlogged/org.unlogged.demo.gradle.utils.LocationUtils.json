@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.gradle.utils.LocationUtils",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.utils.LocationUtils#getLocationFromAddress#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 5, 6, 7 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Mangalore\"",
+          "id" : "0e64b0ef-0e8a-41a7-b750-998cbda09688",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "ea3af0cc-e219-4899-b937-d716ff1e5594",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "7c1aa476-a6e8-4222-b3fc-87be6786fbeb",
+      "name" : "No parse case - Mangalore",
+      "description" : "should pass",
+      "methodArguments" : [ "\"Mangalore\"" ],
+      "returnValue" : "\"Mangalore\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703571348549,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -904715335,
+      "probSerializedValue" : "Ik1hbmdhbG9yZSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.gradle.utils.LocationUtils",
+        "methodHash" : 40623741
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
