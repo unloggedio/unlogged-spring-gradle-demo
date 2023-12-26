@@ -1,0 +1,86 @@
+{
+  "classname" : "org.unlogged.demo.gradle.service.StudentService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "lineNumbers" : [ 19 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
+          "id" : "2af02182-6a79-44ef-897a-6ca272a8d623",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "1e75e605-3ba3-4409-81f0-e5617ae7ce58",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "da7355c5-888e-401c-a85d-98af94f270f4",
+      "name" : "get default sudent - should pass",
+      "description" : "should pass",
+      "methodArguments" : [ "\"string\"" ],
+      "returnValue" : "{\"id\":\"string\",\"name\":\"string\",\"gender\":\"MALE\",\"grade\":0}",
+      "returnValueClassname" : "java.util.Optional",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703568301685,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -64549583,
+      "probSerializedValue" : "eyJpZCI6InN0cmluZyIsIm5hbWUiOiJzdHJpbmciLCJnZW5kZXIiOiJNQUxFIiwiZ3JhZGUiOjB9",
+      "mockIds" : [ "17899963-c514-4677-93f5-3399d18aa4b3" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getStudent",
+        "signature" : "(Ljava/lang/String;)Ljava/util/Optional;",
+        "className" : "org.unlogged.demo.gradle.service.StudentService",
+        "methodHash" : -1869805239
+      }
+    } ],
+    "org.unlogged.demo.gradle.service.StudentService#deleteStudent#(Ljava/lang/String;)Z" : [ {
+      "lineNumbers" : [ 47, 48 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "1",
+          "id" : "abdd6e49-7ba8-4b77-9614-e7abdcb12bf2",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "c9326eeb-bba8-4400-8a9e-732f96c05500",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "c9c31460-25bc-4147-bc32-cd30127bdb6d",
+      "name" : "delete student entry - should pass",
+      "description" : "should pass",
+      "methodArguments" : [ "\"student-1\"" ],
+      "returnValue" : "1",
+      "returnValueClassname" : "Z",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703568460058,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 393064913,
+      "probSerializedValue" : "",
+      "mockIds" : [ "48472372-fb0e-4634-929e-1a512d0dce67" ],
+      "exception" : false,
+      "method" : {
+        "name" : "deleteStudent",
+        "signature" : "(Ljava/lang/String;)Z",
+        "className" : "org.unlogged.demo.gradle.service.StudentService",
+        "methodHash" : -1106784300
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

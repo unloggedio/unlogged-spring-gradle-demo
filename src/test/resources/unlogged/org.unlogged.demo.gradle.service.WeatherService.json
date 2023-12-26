@@ -1,0 +1,189 @@
+{
+  "classname" : "org.unlogged.demo.gradle.service.WeatherService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.service.WeatherService#convertToObject#(Ljava/lang/String;)Lorg/unlogged/demo/gradle/models/weather/WeatherInfo;" : [ {
+      "lineNumbers" : [ 21, 23, 24 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"location\":{\"name\":\"Kengeri\",\"region\":\"Karnataka\",\"country\":\"India\",\"lat\":12.9,\"lon\":77.48,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1703568463,\"localtime\":\"2023-12-26 10:57\"},\"current\":{\"temp_c\":24.0,\"temp_f\":75.2,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":9.4,\"wind_kph\":15.1,\"wind_degree\":90,\"wind_dir\":\"E\",\"pressure_mb\":1022.0,\"pressure_in\":30.18,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":47,\"cloud\":50,\"feelslike_c\":24.5,\"feelslike_f\":76.1,\"vis_km\":6.0,\"vis_miles\":3.0,\"uv\":6.0,\"gust_mph\":12.3,\"gust_kph\":19.9}}",
+          "id" : "02d409d3-bc85-4a54-a633-0ace1e3dc8d2",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "cf5db4dc-e2d3-46dd-bc69-4ff594925cf6",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "640c00bc-9b84-4358-92d0-3484516564cc",
+      "name" : "Json string should corrently conver to weatherInfo object",
+      "description" : "should pass",
+      "methodArguments" : [ "\"{\\\"location\\\":{\\\"name\\\":\\\"Kengeri\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.9,\\\"lon\\\":77.48,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1703568463,\\\"localtime\\\":\\\"2023-12-26 10:57\\\"},\\\"current\\\":{\\\"temp_c\\\":24.0,\\\"temp_f\\\":75.2,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":9.4,\\\"wind_kph\\\":15.1,\\\"wind_degree\\\":90,\\\"wind_dir\\\":\\\"E\\\",\\\"pressure_mb\\\":1022.0,\\\"pressure_in\\\":30.18,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":47,\\\"cloud\\\":50,\\\"feelslike_c\\\":24.5,\\\"feelslike_f\\\":76.1,\\\"vis_km\\\":6.0,\\\"vis_miles\\\":3.0,\\\"uv\\\":6.0,\\\"gust_mph\\\":12.3,\\\"gust_kph\\\":19.9}}\"" ],
+      "returnValue" : "{\"location\":{\"name\":\"Kengeri\",\"region\":\"Karnataka\",\"country\":\"India\",\"lat\":12.9,\"lon\":77.48,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1703568463,\"localtime\":\"2023-12-26 10:57\"},\"current\":{\"temp_c\":24.0,\"temp_f\":75.2,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":9.4,\"wind_kph\":15.1,\"wind_degree\":90,\"wind_dir\":\"E\",\"pressure_mb\":1022.0,\"pressure_in\":30.18,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":47,\"cloud\":50,\"feelslike_c\":24.5,\"feelslike_f\":76.1,\"vis_km\":6.0,\"vis_miles\":3.0,\"uv\":6.0,\"gust_mph\":12.3,\"gust_kph\":19.9}}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.weather.WeatherInfo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703568606105,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : 1484782680,
+      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiS2VuZ2VyaSIsInJlZ2lvbiI6Ikthcm5hdGFrYSIsImNvdW50cnkiOiJJbmRpYSIsImxhdCI6MTIuOSwibG9uIjo3Ny40OCwidHpfaWQiOiJBc2lhL0tvbGthdGEiLCJsb2NhbHRpbWVfZXBvY2giOjE3MDM1Njg0NjMsImxvY2FsdGltZSI6IjIwMjMtMTItMjYgMTA6NTcifSwiY3VycmVudCI6eyJ0ZW1wX2MiOjI0LjAsInRlbXBfZiI6NzUuMiwiaXNfZGF5IjoxLCJjb25kaXRpb24iOnsidGV4dCI6IlBhcnRseSBjbG91ZHkiLCJpY29uIjoiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9kYXkvMTE2LnBuZyIsImNvZGUiOjEwMDN9LCJ3aW5kX21waCI6OS40LCJ3aW5kX2twaCI6MTUuMSwid2luZF9kZWdyZWUiOjkwLCJ3aW5kX2RpciI6IkUiLCJwcmVzc3VyZV9tYiI6MTAyMi4wLCJwcmVzc3VyZV9pbiI6MzAuMTgsInByZWNpcF9tbSI6MC4wLCJwcmVjaXBfaW4iOjAuMCwiaHVtaWRpdHkiOjQ3LCJjbG91ZCI6NTAsImZlZWxzbGlrZV9jIjoyNC41LCJmZWVsc2xpa2VfZiI6NzYuMSwidmlzX2ttIjo2LjAsInZpc19taWxlcyI6My4wLCJ1diI6Ni4wLCJndXN0X21waCI6MTIuMywiZ3VzdF9rcGgiOjE5Ljl9fQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "convertToObject",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/gradle/models/weather/WeatherInfo;",
+        "className" : "org.unlogged.demo.gradle.service.WeatherService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.gradle.service.WeatherService#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 31, 32, 33, 34, 35, 37, 42, 43 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "",
+          "id" : "14756af4-f866-4fbf-860a-6012e2d12e74",
+          "assertionType" : "NOT_NULL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "5ef459b7-033e-4e5c-9ca4-61e2b4dfb88b",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "f1849068-ecfb-493c-b528-4b732ca3a419",
+      "name" : "Weather response - should not be null",
+      "description" : "should pass",
+      "methodArguments" : [ "\"Kengeri\"" ],
+      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"Kengeri\\\",\\\"region\\\":\\\"Karnataka\\\",\\\"country\\\":\\\"India\\\",\\\"lat\\\":12.9,\\\"lon\\\":77.48,\\\"tz_id\\\":\\\"Asia/Kolkata\\\",\\\"localtime_epoch\\\":1703568463,\\\"localtime\\\":\\\"2023-12-26 10:57\\\"},\\\"current\\\":{\\\"temp_c\\\":24.0,\\\"temp_f\\\":75.2,\\\"is_day\\\":1,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/day/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":9.4,\\\"wind_kph\\\":15.1,\\\"wind_degree\\\":90,\\\"wind_dir\\\":\\\"E\\\",\\\"pressure_mb\\\":1022.0,\\\"pressure_in\\\":30.18,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":47,\\\"cloud\\\":50,\\\"feelslike_c\\\":24.5,\\\"feelslike_f\\\":76.1,\\\"vis_km\\\":6.0,\\\"vis_miles\\\":3.0,\\\"uv\\\":6.0,\\\"gust_mph\\\":12.3,\\\"gust_kph\\\":19.9}}\"",
+      "returnValueClassname" : "java.lang.Object",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703568656512,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1290676264,
+      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiS2VuZ2VyaVwiLFwicmVnaW9uXCI6XCJLYXJuYXRha2FcIixcImNvdW50cnlcIjpcIkluZGlhXCIsXCJsYXRcIjoxMi45LFwibG9uXCI6NzcuNDgsXCJ0el9pZFwiOlwiQXNpYS9Lb2xrYXRhXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzAzNTY4NDYzLFwibG9jYWx0aW1lXCI6XCIyMDIzLTEyLTI2IDEwOjU3XCJ9LFwiY3VycmVudFwiOntcInRlbXBfY1wiOjI0LjAsXCJ0ZW1wX2ZcIjo3NS4yLFwiaXNfZGF5XCI6MSxcImNvbmRpdGlvblwiOntcInRleHRcIjpcIlBhcnRseSBjbG91ZHlcIixcImljb25cIjpcIi8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzExNi5wbmdcIixcImNvZGVcIjoxMDAzfSxcIndpbmRfbXBoXCI6OS40LFwid2luZF9rcGhcIjoxNS4xLFwid2luZF9kZWdyZWVcIjo5MCxcIndpbmRfZGlyXCI6XCJFXCIsXCJwcmVzc3VyZV9tYlwiOjEwMjIuMCxcInByZXNzdXJlX2luXCI6MzAuMTgsXCJwcmVjaXBfbW1cIjowLjAsXCJwcmVjaXBfaW5cIjowLjAsXCJodW1pZGl0eVwiOjQ3LFwiY2xvdWRcIjo1MCxcImZlZWxzbGlrZV9jXCI6MjQuNSxcImZlZWxzbGlrZV9mXCI6NzYuMSxcInZpc19rbVwiOjYuMCxcInZpc19taWxlc1wiOjMuMCxcInV2XCI6Ni4wLFwiZ3VzdF9tcGhcIjoxMi4zLFwiZ3VzdF9rcGhcIjoxOS45fX0i",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherinfo",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.gradle.service.WeatherService",
+        "methodHash" : 0
+      }
+    } ],
+    "org.unlogged.demo.gradle.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/gradle/models/weather/WeatherInfo;" : [ {
+      "lineNumbers" : [ 17 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Kengeri\"",
+          "id" : "0ace0c83-fc00-4469-8128-b634d3961601",
+          "assertionType" : "EQUAL",
+          "key" : "/location/name"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "5aba5258-b2e7-4721-be4e-059cebc3e332",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "85bd61a0-7b9d-43a9-a897-5674ece46c8d",
+      "name" : "Kengeri case - get weather",
+      "description" : "kengeri case weather, location should be kengeri",
+      "methodArguments" : [ "\"Kengeri\"" ],
+      "returnValue" : "{\"location\":{\"name\":\"Kengeri\",\"region\":\"Karnataka\",\"country\":\"India\",\"lat\":12.9,\"lon\":77.48,\"tz_id\":\"Asia/Kolkata\",\"localtime_epoch\":1703568463,\"localtime\":\"2023-12-26 10:57\"},\"current\":{\"temp_c\":24.0,\"temp_f\":75.2,\"is_day\":1,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/116.png\",\"code\":1003},\"wind_mph\":9.4,\"wind_kph\":15.1,\"wind_degree\":90,\"wind_dir\":\"E\",\"pressure_mb\":1022.0,\"pressure_in\":30.18,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":47,\"cloud\":50,\"feelslike_c\":24.5,\"feelslike_f\":76.1,\"vis_km\":6.0,\"vis_miles\":3.0,\"uv\":6.0,\"gust_mph\":12.3,\"gust_kph\":19.9}}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.weather.WeatherInfo",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703568529779,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -844297593,
+      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiS2VuZ2VyaSIsInJlZ2lvbiI6Ikthcm5hdGFrYSIsImNvdW50cnkiOiJJbmRpYSIsImxhdCI6MTIuOSwibG9uIjo3Ny40OCwidHpfaWQiOiJBc2lhL0tvbGthdGEiLCJsb2NhbHRpbWVfZXBvY2giOjE3MDM1Njg0NjMsImxvY2FsdGltZSI6IjIwMjMtMTItMjYgMTA6NTcifSwiY3VycmVudCI6eyJ0ZW1wX2MiOjI0LjAsInRlbXBfZiI6NzUuMiwiaXNfZGF5IjoxLCJjb25kaXRpb24iOnsidGV4dCI6IlBhcnRseSBjbG91ZHkiLCJpY29uIjoiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9kYXkvMTE2LnBuZyIsImNvZGUiOjEwMDN9LCJ3aW5kX21waCI6OS40LCJ3aW5kX2twaCI6MTUuMSwid2luZF9kZWdyZWUiOjkwLCJ3aW5kX2RpciI6IkUiLCJwcmVzc3VyZV9tYiI6MTAyMi4wLCJwcmVzc3VyZV9pbiI6MzAuMTgsInByZWNpcF9tbSI6MC4wLCJwcmVjaXBfaW4iOjAuMCwiaHVtaWRpdHkiOjQ3LCJjbG91ZCI6NTAsImZlZWxzbGlrZV9jIjoyNC41LCJmZWVsc2xpa2VfZiI6NzYuMSwidmlzX2ttIjo2LjAsInZpc19taWxlcyI6My4wLCJ1diI6Ni4wLCJndXN0X21waCI6MTIuMywiZ3VzdF9rcGgiOjE5Ljl9fQ==",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getWeatherForAddress",
+        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/gradle/models/weather/WeatherInfo;",
+        "className" : "org.unlogged.demo.gradle.service.WeatherService",
+        "methodHash" : -639457472
+      }
+    } ],
+    "org.unlogged.demo.gradle.service.WeatherService#getLocationFromAddress#(Ljava/lang/String;)Ljava/lang/String;" : [ {
+      "lineNumbers" : [ 47, 48, 49 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"Bangalore\"",
+          "id" : "1f9c7913-4969-45a1-8d75-8034fbf4e985",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "d4a1684d-9b41-460f-9836-2b4b21397c4e",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "fa94ff0e-4d48-4c88-9a48-a6dd4794cf07",
+      "name" : "should pick up bangalore",
+      "description" : "should pass",
+      "methodArguments" : [ "\"Kengeri, Bangalore\"" ],
+      "returnValue" : "\"Bangalore\"",
+      "returnValueClassname" : "java.lang.String",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703568764466,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -2044256905,
+      "probSerializedValue" : "IkJhbmdhbG9yZSI=",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "getLocationFromAddress",
+        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
+        "className" : "org.unlogged.demo.gradle.service.WeatherService",
+        "methodHash" : -1671154719
+      }
+    } ]
+  },
+  "declaredMockMap" : {
+    "org.unlogged.demo.gradle.service.WeatherService#getWeatherForAddress#(Ljava/lang/String;)Lorg/unlogged/demo/gradle/models/weather/WeatherInfo;" : [ {
+      "id" : "4e059b9b-aa25-41bf-9a71-af43be203816",
+      "name" : "mocked weather - string",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.WeatherService",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.DeliveryService",
+      "fieldName" : "weatherService",
+      "methodName" : "getWeatherForAddress",
+      "whenParameter" : [ {
+        "name" : "address",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"location\": {\"name\": \"string\", \"region\": \"string\", \"country\": \"string\", \"lat\": 0, \"lon\": 0, \"tz_id\": \"string\", \"localtime_epoch\": 0, \"localtime\": \"string\"}, \"current\": {\"temp_c\": 0, \"temp_f\": 0, \"is_day\": 0, \"condition\": {}, \"wind_mph\": 0, \"wind_kph\": 0, \"wind_degree\": 0, \"wind_dir\": \"string\", \"pressure_mb\": 0, \"pressure_in\": 0, \"precip_mm\": 0, \"precip_in\": 0, \"humidity\": 0, \"cloud\": 0, \"feelslike_c\": 0, \"feelslike_f\": 0, \"vis_km\": 0, \"vis_miles\": 0, \"uv\": 0, \"gust_mph\": 0, \"gust_kph\": 0}}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.gradle.models.weather.WeatherInfo"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
+}

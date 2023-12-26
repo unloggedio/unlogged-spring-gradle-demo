@@ -40,6 +40,46 @@
         "className" : "org.unlogged.demo.gradle.service.DeliveryService",
         "methodHash" : 552168092
       }
+    } ],
+    "org.unlogged.demo.gradle.service.DeliveryService#canDeliverToCustomer#(J)Lorg/unlogged/demo/gradle/models/DeliveryCheckResponse;" : [ {
+      "lineNumbers" : [ 59, 60, 61, 63, 64, 65, 69, 70, 71, 73, 74 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "{\"customerProfile\":{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},\"requestWritten\":true,\"canDeliver\":true,\"weatherInfo\":{\"location\":{\"name\":\"string\",\"region\":\"string\",\"country\":\"string\",\"lat\":0.0,\"lon\":0.0,\"tz_id\":\"string\",\"localtime_epoch\":0,\"localtime\":\"string\"},\"current\":{\"temp_c\":0.0,\"temp_f\":0.0,\"is_day\":0,\"condition\":{\"text\":null,\"icon\":null,\"code\":0},\"wind_mph\":0.0,\"wind_kph\":0.0,\"wind_degree\":0,\"wind_dir\":\"string\",\"pressure_mb\":0.0,\"pressure_in\":0.0,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":0,\"cloud\":0,\"feelslike_c\":0.0,\"feelslike_f\":0.0,\"vis_km\":0.0,\"vis_miles\":0.0,\"uv\":0.0,\"gust_mph\":0.0,\"gust_kph\":0.0}}}",
+          "id" : "b0142496-ab3b-4409-93e3-5a142cddb19a",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "7e502bce-ec19-4ba4-bec1-fb5548adb82d",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "b72a2405-3a68-457f-84af-9cf387bd7ce4",
+      "name" : "Can deliver case - customer 0",
+      "description" : "default positive case",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "{\"customerProfile\":{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]},\"requestWritten\":true,\"canDeliver\":true,\"weatherInfo\":{\"location\":{\"name\":\"string\",\"region\":\"string\",\"country\":\"string\",\"lat\":0.0,\"lon\":0.0,\"tz_id\":\"string\",\"localtime_epoch\":0,\"localtime\":\"string\"},\"current\":{\"temp_c\":0.0,\"temp_f\":0.0,\"is_day\":0,\"condition\":{\"text\":null,\"icon\":null,\"code\":0},\"wind_mph\":0.0,\"wind_kph\":0.0,\"wind_degree\":0,\"wind_dir\":\"string\",\"pressure_mb\":0.0,\"pressure_in\":0.0,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":0,\"cloud\":0,\"feelslike_c\":0.0,\"feelslike_f\":0.0,\"vis_km\":0.0,\"vis_miles\":0.0,\"uv\":0.0,\"gust_mph\":0.0,\"gust_kph\":0.0}}}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.DeliveryCheckResponse",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703567252454,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -360936732,
+      "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX0sInJlcXVlc3RXcml0dGVuIjp0cnVlLCJjYW5EZWxpdmVyIjp0cnVlLCJ3ZWF0aGVySW5mbyI6eyJsb2NhdGlvbiI6eyJuYW1lIjoic3RyaW5nIiwicmVnaW9uIjoic3RyaW5nIiwiY291bnRyeSI6InN0cmluZyIsImxhdCI6MC4wLCJsb24iOjAuMCwidHpfaWQiOiJzdHJpbmciLCJsb2NhbHRpbWVfZXBvY2giOjAsImxvY2FsdGltZSI6InN0cmluZyJ9LCJjdXJyZW50Ijp7InRlbXBfYyI6MC4wLCJ0ZW1wX2YiOjAuMCwiaXNfZGF5IjowLCJjb25kaXRpb24iOnsidGV4dCI6bnVsbCwiaWNvbiI6bnVsbCwiY29kZSI6MH0sIndpbmRfbXBoIjowLjAsIndpbmRfa3BoIjowLjAsIndpbmRfZGVncmVlIjowLCJ3aW5kX2RpciI6InN0cmluZyIsInByZXNzdXJlX21iIjowLjAsInByZXNzdXJlX2luIjowLjAsInByZWNpcF9tbSI6MC4wLCJwcmVjaXBfaW4iOjAuMCwiaHVtaWRpdHkiOjAsImNsb3VkIjowLCJmZWVsc2xpa2VfYyI6MC4wLCJmZWVsc2xpa2VfZiI6MC4wLCJ2aXNfa20iOjAuMCwidmlzX21pbGVzIjowLjAsInV2IjowLjAsImd1c3RfbXBoIjowLjAsImd1c3Rfa3BoIjowLjB9fX0=",
+      "mockIds" : [ "cf37b7c4-46d0-4530-98ff-11c3037a4d0b", "628a4b65-0f5c-4e94-966f-7a201d595b03", "32aeda67-0fe4-495f-99d3-64ff8073622a", "1c5baf7b-27b5-4d16-b097-b6235d258d64", "4e059b9b-aa25-41bf-9a71-af43be203816", "7ce73ad7-a5a0-4a17-b564-79ca0c6b68af" ],
+      "exception" : false,
+      "method" : {
+        "name" : "canDeliverToCustomer",
+        "signature" : "(J)Lorg/unlogged/demo/gradle/models/DeliveryCheckResponse;",
+        "className" : "org.unlogged.demo.gradle.service.DeliveryService",
+        "methodHash" : -1103879160
+      }
     } ]
   },
   "declaredMockMap" : { }
