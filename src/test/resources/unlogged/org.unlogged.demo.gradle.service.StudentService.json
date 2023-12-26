@@ -82,5 +82,94 @@
       }
     } ]
   },
-  "declaredMockMap" : { }
+  "declaredMockMap" : {
+    "org.unlogged.demo.gradle.service.StudentService#getStudent#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
+      "id" : "540ac61c-ac55-4b27-b4d5-2d7dbfafd048",
+      "name" : "get student default mock",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.gradle.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "getStudent",
+      "whenParameter" : [ {
+        "name" : "id",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\n  \"id\" : \"string\",\n  \"name\" : \"string\",\n  \"gender\" : \"MALE\",\n  \"grade\" : 0\n}",
+          "returnValueType" : "REAL",
+          "className" : "java.util.Optional<org.unlogged.demo.gradle.models.Student>"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.gradle.service.StudentService#createStudent#(Lorg/unlogged/demo/gradle/models/Student;)Z" : [ {
+      "id" : "fade7071-175f-4d3b-80ec-c488eb1ebd43",
+      "name" : "create student default mock",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.gradle.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "createStudent",
+      "whenParameter" : [ {
+        "name" : "student",
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.gradle.models.Student"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.gradle.service.StudentService#updateStudent#(Lorg/unlogged/demo/gradle/models/Student;)Z" : [ {
+      "id" : "5c9da03a-e1b5-498e-893a-184e317a8e81",
+      "name" : "sc - update student mock",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.gradle.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "updateStudent",
+      "whenParameter" : [ {
+        "name" : "student",
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.gradle.models.Student"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ],
+    "org.unlogged.demo.gradle.service.StudentService#deleteStudent#(Ljava/lang/String;)Z" : [ {
+      "id" : "1f00aa6b-19f4-45fa-913c-9af3dd7c9f63",
+      "name" : "delete student mock",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.StudentService",
+      "sourceClassName" : "org.unlogged.demo.gradle.controller.StudentController",
+      "fieldName" : "studentService",
+      "methodName" : "deleteStudent",
+      "whenParameter" : [ {
+        "name" : "id",
+        "type" : "ANY_OF_TYPE",
+        "value" : "java.lang.String"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "true",
+          "returnValueType" : "REAL",
+          "className" : "boolean"
+        },
+        "methodExitType" : "NORMAL"
+      } ]
+    } ]
+  }
 }
