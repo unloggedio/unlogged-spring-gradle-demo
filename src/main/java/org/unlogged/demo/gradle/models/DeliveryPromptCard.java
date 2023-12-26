@@ -1,10 +1,11 @@
 package org.unlogged.demo.gradle.models;
 
+import lombok.Data;
+
+@Data
 public class DeliveryPromptCard {
     private boolean canDeliver;
     private CustomerProfile customerProfile;
-
-    public DeliveryPromptCard() {}
 
     public DeliveryPromptCard(boolean canDeliver, CustomerProfile customerProfile) {
         this.canDeliver = canDeliver;

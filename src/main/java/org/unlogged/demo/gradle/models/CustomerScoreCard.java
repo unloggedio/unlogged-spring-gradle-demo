@@ -1,5 +1,8 @@
 package org.unlogged.demo.gradle.models;
 
+import lombok.Data;
+
+@Data
 public class CustomerScoreCard {
 
     private CustomerProfile customerProfile;
@@ -15,38 +18,5 @@ public class CustomerScoreCard {
     }
 
     public CustomerScoreCard() {
-    }
-
-    public CustomerProfile getCustomerProfile() {
-        return customerProfile;
-    }
-
-    public void setCustomerProfile(CustomerProfile customerProfile) {
-        this.customerProfile = customerProfile;
-    }
-
-    public int getScore() {
-        return score;
-    }
-
-    public void setScore(int score) {
-        this.score = score;
-    }
-
-    public boolean getCustomerEligible() {
-        return customerEligible;
-    }
-
-    public void setCustomerEligible(boolean customerEligible) {
-        this.customerEligible = customerEligible;
-    }
-
-    @Override
-    public String toString() {
-        return "CustomerScoreCard{" +
-                "customerProfile=" + customerProfile +
-                ", score=" + score +
-                ", isCustomerEligible=" + customerEligible +
-                '}';
     }
 }
