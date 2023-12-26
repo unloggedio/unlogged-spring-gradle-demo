@@ -242,45 +242,6 @@
       }
     } ],
     "org.unlogged.demo.gradle.service.CustomerService#filterEligbleCustomers#(Ljava/util/List;Z)Ljava/util/List;" : [ {
-      "lineNumbers" : [ 78, 79, 82, 115, 116, 117, 119, 122, 123, 125, 126, 127, 129, 131 ],
-      "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "[{\"customerid\":123,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\",\"string\",\"string\",\"string\",\"string\",\"string\",\"string\",\"string\",\"string\"]}]",
-          "id" : "2d3731a2-de57-4099-ad7a-9a764c8fd7cc",
-          "assertionType" : "EQUAL",
-          "key" : "/"
-        } ],
-        "expression" : "SELF",
-        "expectedValue" : null,
-        "id" : "124a2d15-8c5a-4514-8dff-7dc0aecf2900",
-        "assertionType" : "ALLOF",
-        "key" : null
-      },
-      "candidateId" : "a59aac33-74b6-46ac-904a-981f813a7348",
-      "name" : "International flow - eligible customer",
-      "description" : "assert that the response value matches expected value",
-      "methodArguments" : [ "[{\"customerid\":123,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\",\"string\",\"string\",\"string\",\"string\",\"string\",\"string\",\"string\",\"string\"]}]", "0" ],
-      "returnValue" : "[{\"customerid\":123,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\",\"string\",\"string\",\"string\",\"string\",\"string\",\"string\",\"string\",\"string\"]}]",
-      "returnValueClassname" : "java.util.ArrayList",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 1703511565725,
-        "candidateStatus" : "PASSING"
-      },
-      "sessionIdentifier" : -1731222016,
-      "probSerializedValue" : "W3siY3VzdG9tZXJpZCI6MTIzLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyIsInN0cmluZyIsInN0cmluZyIsInN0cmluZyIsInN0cmluZyIsInN0cmluZyIsInN0cmluZyIsInN0cmluZyIsInN0cmluZyJdfV0=",
-      "mockIds" : [ ],
-      "exception" : false,
-      "method" : {
-        "name" : "filterEligbleCustomers",
-        "signature" : "(Ljava/util/List;Z)Ljava/util/List;",
-        "className" : "org.unlogged.demo.gradle.service.CustomerService",
-        "methodHash" : -1451434435
-      }
-    }, {
       "lineNumbers" : [ 78, 79, 80, 82, 83, 84, 85, 86, 91, 94, 97, 98, 109, 110, 111, 113, 131 ],
       "testAssertions" : {
         "subAssertions" : [ {

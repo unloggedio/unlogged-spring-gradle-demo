@@ -1,0 +1,46 @@
+{
+  "classname" : "org.unlogged.demo.gradle.service.DeliveryService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.service.DeliveryService#getAllCustomers#()Ljava/util/List;" : [ {
+      "lineNumbers" : [ 79 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "[{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]",
+          "id" : "01442aa6-2d0f-4154-8e3b-6e77689ea4b3",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : null,
+        "id" : "7a0dc39f-3429-47f1-a4a1-a9572075f0e1",
+        "assertionType" : "ALLOF",
+        "key" : null
+      },
+      "candidateId" : "1af7bccd-4c68-4e39-8b51-b3de2fd883f1",
+      "name" : "get all customers - default",
+      "description" : "assert that the response value matches expected value",
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 1703566489161,
+        "candidateStatus" : "PASSING"
+      },
+      "sessionIdentifier" : -1787208893,
+      "probSerializedValue" : "W3siY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX1d",
+      "mockIds" : [ "cf37b7c4-46d0-4530-98ff-11c3037a4d0b" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAllCustomers",
+        "signature" : "()Ljava/util/List;",
+        "className" : "org.unlogged.demo.gradle.service.DeliveryService",
+        "methodHash" : 552168092
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}
