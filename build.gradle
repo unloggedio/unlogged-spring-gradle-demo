@@ -36,8 +36,8 @@ dependencies {
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-hibernate5'
 
-	implementation 'video.bug:unlogged-sdk:0.1.36'
-	annotationProcessor 'video.bug:unlogged-sdk:0.1.36'
+	implementation 'video.bug:unlogged-sdk:0.1.44'
+	annotationProcessor 'video.bug:unlogged-sdk:0.1.44'
 
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis:'+springbootVersion
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:'+springbootVersion
@@ -45,6 +45,7 @@ dependencies {
 	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.2.0'
 	testImplementation 'junit:junit:4.12'
 	testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.2.0'
+	implementation 'org.springframework.boot:spring-boot-starter-actuator'
 }
 
 tasks.named('test') {
