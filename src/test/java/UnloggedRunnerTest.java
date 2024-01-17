@@ -7,6 +7,7 @@ import org.springframework.core.env.PropertiesPropertySource;
 import org.springframework.core.io.support.EncodedResource;
 import org.springframework.core.io.support.PropertySourceFactory;
 import org.springframework.test.context.TestPropertySource;
+import org.springframework.test.context.web.WebAppConfiguration;
 
 import java.io.IOException;
 
@@ -14,6 +15,7 @@ import java.io.IOException;
 @ComponentScan("org.unlogged.demo")
 @EnableAutoConfiguration
 @TestPropertySource({"classpath:application.properties"})
+// @WebAppConfiguration
 public class UnloggedRunnerTest {
 
     public static class YamlPropertySourceFactory implements PropertySourceFactory {
