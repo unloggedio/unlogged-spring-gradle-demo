@@ -33,13 +33,13 @@
       "sessionIdentifier" : -1284513113,
       "probSerializedValue" : "eyJjdXN0b21lclByb2ZpbGUiOnsiY3VzdG9tZXJpZCI6MCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJzdHJpbmciXX0sInNjb3JlIjo1MCwiY3VzdG9tZXJFbGlnaWJsZSI6dHJ1ZX0=",
       "mockIds" : [ "ecc6f0c2-e29c-4920-8ed6-4d80946a0fd9" ],
-      "exception" : false,
       "method" : {
         "name" : "isCustomerEligibleForLoyaltyProgram",
         "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerScoreCard;",
         "className" : "org.unlogged.demo.gradle.controller.CustomerController",
         "methodHash" : 777166368
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.gradle.controller.CustomerController#getCustomerProfile#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 23, 24 ],
@@ -73,13 +73,13 @@
       "sessionIdentifier" : -1266352512,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
       "mockIds" : [ "ee284faf-df6a-4251-8d94-c179c9bf077c" ],
-      "exception" : false,
       "method" : {
         "name" : "getCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
         "className" : "org.unlogged.demo.gradle.controller.CustomerController",
         "methodHash" : 1442596880
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.gradle.controller.CustomerController#removeCustomerProfile#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 35 ],
@@ -113,13 +113,13 @@
       "sessionIdentifier" : -1128732253,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
       "mockIds" : [ "a30c28d4-114c-4ef1-8829-04de3d6be079" ],
-      "exception" : false,
       "method" : {
         "name" : "removeCustomerProfile",
         "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
         "className" : "org.unlogged.demo.gradle.controller.CustomerController",
         "methodHash" : 360121978
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.gradle.controller.CustomerController#generateNeReferralCode#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 40 ],
@@ -153,13 +153,13 @@
       "sessionIdentifier" : 1530967251,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInJlZi0xIiwibmV3IHJlZiJdfQ==",
       "mockIds" : [ "de2e4aa1-4f14-486b-b81d-1a373f98a9fa" ],
-      "exception" : false,
       "method" : {
         "name" : "generateNeReferralCode",
         "signature" : "(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
         "className" : "org.unlogged.demo.gradle.controller.CustomerController",
         "methodHash" : 1508694840
-      }
+      },
+      "exception" : false
     } ],
     "org.unlogged.demo.gradle.controller.CustomerController#saveCustomerProfile#(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
       "lineNumbers" : [ 30 ],
@@ -193,13 +193,13 @@
       "sessionIdentifier" : -32822301,
       "probSerializedValue" : "eyJjdXN0b21lcmlkIjowLCJjdXN0b21lcm5hbWUiOiJzdHJpbmciLCJkYXRlb2ZiaXJ0aCI6InN0cmluZyIsImVtYWlsIjoic3RyaW5nIiwiY29udGFjdG51bWJlciI6InN0cmluZyIsImFkZHJlc3MiOiJzdHJpbmciLCJyZWZlcnJhbGNvZGVzIjpbInN0cmluZyJdfQ==",
       "mockIds" : [ "1932c313-628d-4f7a-9157-885549b4180c" ],
-      "exception" : false,
       "method" : {
         "name" : "saveCustomerProfile",
         "signature" : "(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
         "className" : "org.unlogged.demo.gradle.controller.CustomerController",
         "methodHash" : 1550999522
-      }
+      },
+      "exception" : false
     } ]
   },
   "declaredMockMap" : { }
