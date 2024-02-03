@@ -36,8 +36,12 @@ dependencies {
 	runtimeOnly 'com.mysql:mysql-connector-j'
 	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-hibernate5'
 
-	implementation 'video.bug:unlogged-sdk:0.1.36'
-	annotationProcessor 'video.bug:unlogged-sdk:0.1.36'
+	implementation 'video.bug:unlogged-sdk:0.1.47'
+	annotationProcessor 'video.bug:unlogged-sdk:0.1.47'
+
+//	implementation files("/Users/artpar/.m2/repository/video/bug/unlogged-sdk/0.1.47/unlogged-sdk-0.1.47.jar")
+//	annotationProcessor files("/Users/artpar/.m2/repository/video/bug/unlogged-sdk/0.1.47/unlogged-sdk-0.1.47.jar")
+
 
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis:'+springbootVersion
 	testImplementation 'org.springframework.boot:spring-boot-starter-test:'+springbootVersion
