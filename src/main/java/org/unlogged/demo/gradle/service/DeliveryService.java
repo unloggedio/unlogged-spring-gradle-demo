@@ -80,6 +80,8 @@ public class DeliveryService {
     }
 
     public CustomerProfile addNewCustomer(CustomerProfile customerProfile) {
+
+        System.out.println("customer_profile = " + customerProfile.toString());
         customerProfileRepo.save(customerProfile);
         return customerProfile;
     }

@@ -20,9 +20,10 @@ public class CustomerController {
 
     @RequestMapping("/get")
     public CustomerProfile getCustomerProfile(@RequestParam long customerID) {
+        System.out.println("customerId = " + customerID);
         CustomerProfile e = customerService.fetchCustomerProfile(customerID);
         return e;
-    }
+    } 
 
     @RequestMapping("/create")
     @PostMapping

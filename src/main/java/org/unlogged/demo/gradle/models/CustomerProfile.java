@@ -17,6 +17,7 @@ public class CustomerProfile {
     private String contactnumber;
     private String address;
     private List<String> referralcodes;
+    private List<List<Integer>> nestedListInteger;
 
     public CustomerProfile() {
     }
@@ -29,6 +30,17 @@ public class CustomerProfile {
         this.contactnumber = contactnumber;
         this.address = address;
         this.referralcodes = referralcodes;
+    }
+
+    public CustomerProfile(long customerid, String customername, String dateofbirth, String email, String contactnumber, String address, List<String> referralcodes, List<List<Integer>> nestedListInteger) {
+        this.customerid = customerid;
+        this.customername = customername;
+        this.dateofbirth = dateofbirth;
+        this.email = email;
+        this.contactnumber = contactnumber;
+        this.address = address;
+        this.referralcodes = referralcodes;
+        this.nestedListInteger = nestedListInteger;
     }
 
     public long getCustomerid() {
@@ -97,6 +109,7 @@ public class CustomerProfile {
                 ", contactNumbers=" + contactnumber +
                 ", address='" + address + '\'' +
                 ", referralCodes=" + referralcodes +
+                ", nestedListInteger=" + nestedListInteger +
                 '}';
     }
 }
