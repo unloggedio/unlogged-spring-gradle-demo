@@ -1,0 +1,25 @@
+{
+  "classname" : "org.unlogged.demo.gradle.dao.CustomerProfileRepo",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.gradle.dao.CustomerProfileRepo#findAll#()Ljava/util/List;" : [ {
+      "id" : "44ae43fd-6749-4091-8ec9-5223c5bd6aeb",
+      "name" : "mock response for call to customerProfileRepo.findAll()",
+      "fieldTypeName" : "org.unlogged.demo.gradle.dao.CustomerProfileRepo",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.DeliveryService",
+      "fieldName" : "customerProfileRepo",
+      "methodName" : "findAll",
+      "whenParameter" : [ ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "[{\"customerid\":10,\"customername\":null,\"dateofbirth\":null,\"email\":null,\"contactnumber\":null,\"address\":null,\"referralcodes\":null}]",
+          "returnValueType" : "REAL",
+          "className" : "java.util.List"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.gradle.dao.CustomerProfileRepo#findAll#()Ljava/util/List;"
+    } ]
+  }
+}

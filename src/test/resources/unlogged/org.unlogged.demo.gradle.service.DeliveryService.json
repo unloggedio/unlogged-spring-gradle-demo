@@ -1,0 +1,95 @@
+{
+  "classname" : "org.unlogged.demo.gradle.service.DeliveryService",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.service.DeliveryService#getAllCustomers#()Ljava/util/List;" : [ {
+      "lineNumbers" : [ 79 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "10",
+            "id" : "4af57645-d1cd-43f9-b819-865f103e319b",
+            "assertionType" : "EQUAL",
+            "key" : "/0/customerid"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "0703bd5b-1c7e-401d-b56e-89d2151b0d51",
+            "assertionType" : "EQUAL",
+            "key" : "/0/customername"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "ec50231c-cd0c-4e64-a450-df990f37cacb",
+            "assertionType" : "EQUAL",
+            "key" : "/0/dateofbirth"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "ee379060-6bdd-48f1-b43e-2cf5381a67a7",
+            "assertionType" : "EQUAL",
+            "key" : "/0/email"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "6bfb6f2f-740c-4a32-829c-75c6b33a9177",
+            "assertionType" : "EQUAL",
+            "key" : "/0/contactnumber"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "c33fb3a5-2416-40a6-b8a4-cc14d32715ee",
+            "assertionType" : "EQUAL",
+            "key" : "/0/address"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "null",
+            "id" : "3000a6f8-077f-4359-9b4a-00305e316aba",
+            "assertionType" : "EQUAL",
+            "key" : "/0/referralcodes"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "b8b780ac-85bd-4920-aeec-6760817b9457",
+          "assertionType" : "ALLOF",
+          "key" : "/0"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "62ea573e-aa40-4da8-a888-fa6e38a01c17",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "716c5c37-85bb-4a38-821a-f708ed158a29",
+      "name" : "saved on 2024-02-28 12:51",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[{\"customerid\":10,\"customername\":null,\"dateofbirth\":null,\"email\":null,\"contactnumber\":null,\"address\":null,\"referralcodes\":null}]",
+      "returnValueClassname" : "java.util.List",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 69265871129610,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -581088261,
+      "probSerializedValue" : "W3siY3VzdG9tZXJpZCI6MTAsImN1c3RvbWVybmFtZSI6bnVsbCwiZGF0ZW9mYmlydGgiOm51bGwsImVtYWlsIjpudWxsLCJjb250YWN0bnVtYmVyIjpudWxsLCJhZGRyZXNzIjpudWxsLCJyZWZlcnJhbGNvZGVzIjpudWxsfV0=",
+      "mockIds" : [ "44ae43fd-6749-4091-8ec9-5223c5bd6aeb" ],
+      "exception" : false,
+      "method" : {
+        "name" : "getAllCustomers",
+        "signature" : "()Ljava/util/List;",
+        "className" : "org.unlogged.demo.gradle.service.DeliveryService",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

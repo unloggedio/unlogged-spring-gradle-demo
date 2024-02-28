@@ -1,116 +1,74 @@
 {
   "classname" : "org.unlogged.demo.gradle.service.CustomerService",
-  "storedCandidateMap" : { },
-  "declaredMockMap" : {
-    "org.unlogged.demo.gradle.service.CustomerService#fetchCustomerProfile#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
-      "id" : "ee284faf-df6a-4251-8d94-c179c9bf077c",
-      "name" : "get customer 0 mock",
-      "fieldTypeName" : "org.unlogged.demo.gradle.service.CustomerService",
-      "sourceClassName" : "org.unlogged.demo.gradle.controller.CustomerController",
-      "fieldName" : "customerService",
-      "methodName" : "fetchCustomerProfile",
-      "whenParameter" : [ {
-        "name" : "id",
-        "type" : "ANY_OF_TYPE",
-        "value" : "long"
-      } ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "{\n  \"customerid\" : 1,\n  \"customername\" : \"string\",\n  \"dateofbirth\" : \"string\",\n  \"email\" : \"string\",\n  \"contactnumber\" : \"string\",\n  \"address\" : \"string\",\n  \"referralcodes\" : [ \"string\" ]\n}",
-          "returnValueType" : "REAL",
-          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
-        },
-        "methodExitType" : "NORMAL"
-      } ]
-    } ],
-    "org.unlogged.demo.gradle.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
-      "id" : "1932c313-628d-4f7a-9157-885549b4180c",
-      "name" : "save customer 0 mock",
-      "fieldTypeName" : "org.unlogged.demo.gradle.service.CustomerService",
-      "sourceClassName" : "org.unlogged.demo.gradle.controller.CustomerController",
-      "fieldName" : "customerService",
-      "methodName" : "saveNewCustomer",
-      "whenParameter" : [ {
-        "name" : "saveRequest",
-        "type" : "ANY_OF_TYPE",
-        "value" : "org.unlogged.demo.gradle.models.CustomerProfileRequest"
-      } ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
-          "returnValueType" : "REAL",
-          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
-        },
-        "methodExitType" : "NORMAL"
-      } ]
-    } ],
-    "org.unlogged.demo.gradle.service.CustomerService#generateReferralForCustomer#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
-      "id" : "de2e4aa1-4f14-486b-b81d-1a373f98a9fa",
-      "name" : "add ref to customer 0 mock",
-      "fieldTypeName" : "org.unlogged.demo.gradle.service.CustomerService",
-      "sourceClassName" : "org.unlogged.demo.gradle.controller.CustomerController",
-      "fieldName" : "customerService",
-      "methodName" : "generateReferralForCustomer",
-      "whenParameter" : [ {
-        "name" : "customerID",
-        "type" : "ANY_OF_TYPE",
-        "value" : "long"
-      } ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "{\n  \"customerid\" : 0,\n  \"customername\" : \"string\",\n  \"dateofbirth\" : \"string\",\n  \"email\" : \"string\",\n  \"contactnumber\" : \"string\",\n  \"address\" : \"string\",\n  \"referralcodes\" : [ \"ref-1\", \"new ref\" ]\n}",
-          "returnValueType" : "REAL",
-          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
-        },
-        "methodExitType" : "NORMAL"
-      } ]
-    } ],
-    "org.unlogged.demo.gradle.service.CustomerService#isCustomerEligibleForPremium#(J)Lorg/unlogged/demo/gradle/models/CustomerScoreCard;" : [ {
-      "id" : "ecc6f0c2-e29c-4920-8ed6-4d80946a0fd9",
-      "name" : "customer 0 is eligible mock",
-      "fieldTypeName" : "org.unlogged.demo.gradle.service.CustomerService",
-      "sourceClassName" : "org.unlogged.demo.gradle.controller.CustomerController",
-      "fieldName" : "customerService",
-      "methodName" : "isCustomerEligibleForPremium",
-      "whenParameter" : [ {
-        "name" : "customerID",
-        "type" : "ANY_OF_TYPE",
-        "value" : "long"
-      } ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "{\n  \"customerProfile\" : {\n    \"customerid\" : 0,\n    \"customername\" : \"string\",\n    \"dateofbirth\" : \"string\",\n    \"email\" : \"string\",\n    \"contactnumber\" : \"string\",\n    \"address\" : \"string\",\n    \"referralcodes\" : [ \"string\" ]\n  },\n  \"score\" : 50,\n  \"customerEligible\" : true\n}",
-          "returnValueType" : "REAL",
-          "className" : "org.unlogged.demo.gradle.models.CustomerScoreCard"
-        },
-        "methodExitType" : "NORMAL"
-      } ]
-    } ],
-    "org.unlogged.demo.gradle.service.CustomerService#removeCustomer#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
-      "id" : "a30c28d4-114c-4ef1-8829-04de3d6be079",
-      "name" : "remove customer 0 mock",
-      "fieldTypeName" : "org.unlogged.demo.gradle.service.CustomerService",
-      "sourceClassName" : "org.unlogged.demo.gradle.controller.CustomerController",
-      "fieldName" : "customerService",
-      "methodName" : "removeCustomer",
-      "whenParameter" : [ {
-        "name" : "customerID",
-        "type" : "ANY_OF_TYPE",
-        "value" : "long"
-      } ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "{\"customerid\": 0, \"customername\": \"string\", \"dateofbirth\": \"string\", \"email\": \"string\", \"contactnumber\": \"string\", \"address\": \"string\", \"referralcodes\": [\"string\"]}",
-          "returnValueType" : "REAL",
-          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
-        },
-        "methodExitType" : "NORMAL"
-      } ]
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.service.CustomerService#generateReferralCodes#()Ljava/util/ArrayList;" : [ {
+      "lineNumbers" : [ 51, 52, 53, 54, 56, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"jwivnpgphp\"",
+          "id" : "96b43e15-5e16-4dc5-8184-7a7c8dc9ad28",
+          "assertionType" : "EQUAL",
+          "key" : "/0"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"hjeospuomb\"",
+          "id" : "ccd32014-4b93-4e46-b6c4-a26f85cfc251",
+          "assertionType" : "EQUAL",
+          "key" : "/1"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"qtfxbxjaaf\"",
+          "id" : "fb86aeda-c1c2-4283-a774-bfa252930ab4",
+          "assertionType" : "EQUAL",
+          "key" : "/2"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"gqonhfdxyj\"",
+          "id" : "50a7a44f-8d5b-4c58-9597-725b22b04aa0",
+          "assertionType" : "EQUAL",
+          "key" : "/3"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "\"orwhgluaxo\"",
+          "id" : "021ca07b-9a0c-4b8c-8930-6fe11ee003bb",
+          "assertionType" : "EQUAL",
+          "key" : "/4"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "f5279443-6949-4ea5-8353-a53984c7e291",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "92710c0c-8e9e-41c6-9969-3601214e4094",
+      "name" : "saved on 2024-02-28 12:48",
+      "description" : null,
+      "methodArguments" : [ ],
+      "returnValue" : "[\"jwivnpgphp\",\"hjeospuomb\",\"qtfxbxjaaf\",\"gqonhfdxyj\",\"orwhgluaxo\"]",
+      "returnValueClassname" : "java.util.ArrayList",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 69090890788624,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : 106190834,
+      "probSerializedValue" : "WyJqd2l2bnBncGhwIiwiaGplb3NwdW9tYiIsInF0ZnhieGphYWYiLCJncW9uaGZkeHlqIiwib3J3aGdsdWF4byJd",
+      "mockIds" : [ ],
+      "exception" : false,
+      "method" : {
+        "name" : "generateReferralCodes",
+        "signature" : "()Ljava/util/ArrayList;",
+        "className" : "org.unlogged.demo.gradle.service.CustomerService",
+        "methodHash" : 0
+      }
     } ]
-  }
+  },
+  "declaredMockMap" : { }
 }
