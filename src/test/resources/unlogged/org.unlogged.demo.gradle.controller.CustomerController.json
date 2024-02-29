@@ -1,0 +1,123 @@
+{
+  "classname" : "org.unlogged.demo.gradle.controller.CustomerController",
+  "storedCandidateMap" : {
+    "org.unlogged.demo.gradle.controller.CustomerController#saveCustomerProfile#(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "lineNumbers" : [ 35, 32, 33, 34, 35, 36, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16 ],
+      "testAssertions" : {
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "10",
+          "id" : "a13bd47c-ff8d-41ca-8ffa-72fc73269597",
+          "assertionType" : "EQUAL",
+          "key" : "/customerid"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "677f6138-cd98-426e-97f1-ceccf1881047",
+          "assertionType" : "EQUAL",
+          "key" : "/customername"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "61902620-eeed-44c5-b89f-b450d6794310",
+          "assertionType" : "EQUAL",
+          "key" : "/dateofbirth"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "f52dbd37-8c04-483c-ba06-af5b57cf82b3",
+          "assertionType" : "EQUAL",
+          "key" : "/email"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "172a0dc0-ee3f-4b24-9e0c-2f1b40fcf6bc",
+          "assertionType" : "EQUAL",
+          "key" : "/contactnumber"
+        }, {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "714fa04f-8d0e-459c-bf1c-0a6adf1b2b18",
+          "assertionType" : "EQUAL",
+          "key" : "/address"
+        }, {
+          "subAssertions" : [ {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "kxzkxzcbef",
+            "id" : "3b8ad38d-b8fc-4258-88bb-8a3861d7a610",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/0"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "dttstwjngz",
+            "id" : "3cb27d11-5e2d-44c0-9546-60a20fa6c69b",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/1"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "lixzfmwlkb",
+            "id" : "e65fb771-af0c-4ee7-98dc-4497d69d2544",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/2"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "irgmhbwobf",
+            "id" : "7e52124f-3f50-4e22-8dd5-be154ef81216",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/3"
+          }, {
+            "subAssertions" : [ ],
+            "expression" : "SELF",
+            "expectedValue" : "armitnmgyy",
+            "id" : "25585369-94ae-4664-93df-49223d79d0c1",
+            "assertionType" : "EQUAL",
+            "key" : "/referralcodes/4"
+          } ],
+          "expression" : "SELF",
+          "expectedValue" : "true",
+          "id" : "f45c4e9f-7da6-4376-a6cb-91d0a85a7919",
+          "assertionType" : "ALLOF",
+          "key" : "/referralcodes"
+        } ],
+        "expression" : "SELF",
+        "expectedValue" : "true",
+        "id" : "ae08301e-969c-4449-ace8-66095d706dab",
+        "assertionType" : "ALLOF",
+        "key" : "/"
+      },
+      "candidateId" : "d67420a9-5b51-48af-b27d-f546f165364f",
+      "name" : "saved on 2024-02-29 16:52",
+      "description" : null,
+      "methodArguments" : [ "{\"customerName\":\"string\",\"dateOfBirth\":\"string\",\"email\":\"string\",\"primaryNumber\":\"string\",\"address\":\"string\",\"codes\":[\"string\"]}" ],
+      "returnValue" : "{\"customerid\":10,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"kxzkxzcbef\",\"dttstwjngz\",\"lixzfmwlkb\",\"irgmhbwobf\",\"armitnmgyy\"]}",
+      "returnValueClassname" : "org.unlogged.demo.gradle.models.CustomerProfile",
+      "metadata" : {
+        "recordedBy" : "testerfresher",
+        "hostMachineName" : "testerfresher",
+        "timestamp" : 113128418640124,
+        "candidateStatus" : "NA"
+      },
+      "sessionIdentifier" : -1623996260,
+      "probSerializedValue" : "eyJjdXN0b21lcmlkIjoxMCwiY3VzdG9tZXJuYW1lIjoic3RyaW5nIiwiZGF0ZW9mYmlydGgiOiJzdHJpbmciLCJlbWFpbCI6InN0cmluZyIsImNvbnRhY3RudW1iZXIiOiJzdHJpbmciLCJhZGRyZXNzIjoic3RyaW5nIiwicmVmZXJyYWxjb2RlcyI6WyJreHpreHpjYmVmIiwiZHR0c3R3am5neiIsImxpeHpmbXdsa2IiLCJpcmdtaGJ3b2JmIiwiYXJtaXRubWd5eSJdfQ==",
+      "mockIds" : [ "a7b37af8-7057-48bb-9670-f4adb8cd8b88" ],
+      "exception" : false,
+      "method" : {
+        "name" : "saveCustomerProfile",
+        "signature" : "(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;",
+        "className" : "org.unlogged.demo.gradle.controller.CustomerController",
+        "methodHash" : 0
+      }
+    } ]
+  },
+  "declaredMockMap" : { }
+}

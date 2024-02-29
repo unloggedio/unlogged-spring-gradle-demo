@@ -1,0 +1,12 @@
+{
+  "canDeliver" : true,
+  "customerProfile" : {
+    "customerid" : 0,
+    "customername" : "string",
+    "dateofbirth" : "string",
+    "email" : "string",
+    "contactnumber" : "string",
+    "address" : "string",
+    "referralcodes" : [ "string" ]
+  }
+}

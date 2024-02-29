@@ -4,26 +4,33 @@
     "org.unlogged.demo.gradle.service.FutureService#doSomething#()Ljava/util/concurrent/CompletableFuture;" : [ {
       "lineNumbers" : [ 12, 13, 14 ],
       "testAssertions" : {
-        "subAssertions" : [ ],
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "89574058",
+          "id" : "2b5b520f-1649-407a-a832-e270568d69dc",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
         "expression" : "SELF",
         "expectedValue" : null,
-        "id" : "b94aa334-4b2a-4cac-9971-c5dd39ca3baa",
+        "id" : "57953c50-8404-4c84-b352-25d30a7cbe55",
         "assertionType" : "ALLOF",
         "key" : null
       },
-      "candidateId" : "1569cf78-1308-4351-8544-082934d0fb77",
-      "name" : "saved on 2024-02-28 12:54",
+      "candidateId" : "0fcd1226-c433-4cbe-87ab-170cb6d4ccdc",
+      "name" : "saved on 2024-02-29 16:53",
       "description" : null,
       "methodArguments" : [ ],
-      "returnValue" : "1516956981",
+      "returnValue" : "89574058",
       "returnValueClassname" : "java.util.concurrent.CompletableFuture",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 69453234398601,
+        "timestamp" : 113265365819388,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 413755175,
+      "sessionIdentifier" : -1985717744,
       "probSerializedValue" : "",
       "mockIds" : [ ],
       "exception" : false,
@@ -37,15 +44,22 @@
     "org.unlogged.demo.gradle.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
       "lineNumbers" : [ 18 ],
       "testAssertions" : {
-        "subAssertions" : [ ],
+        "subAssertions" : [ {
+          "subAssertions" : [ ],
+          "expression" : "SELF",
+          "expectedValue" : "string",
+          "id" : "76260dd8-1c59-4793-92d0-6cdbb580363b",
+          "assertionType" : "EQUAL",
+          "key" : "/"
+        } ],
         "expression" : "SELF",
-        "expectedValue" : "\"string\"",
-        "id" : "83a604b4-8bc2-48b0-9702-5a8cb38c21f9",
-        "assertionType" : "EQUAL",
-        "key" : "/"
+        "expectedValue" : null,
+        "id" : "10fd3223-5e96-47e2-95d3-eb24d6cca530",
+        "assertionType" : "ALLOF",
+        "key" : null
       },
-      "candidateId" : "7b09797b-d57c-4eb3-94d2-5054c6d85992",
-      "name" : "saved on 2024-02-28 12:54",
+      "candidateId" : "4d34eded-1817-4293-9717-886635e41064",
+      "name" : "saved on 2024-02-29 16:53",
       "description" : null,
       "methodArguments" : [ "\"string\"" ],
       "returnValue" : "\"string\"",
@@ -53,10 +67,10 @@
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 69477526614440,
+        "timestamp" : 113279003394955,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 2040869462,
+      "sessionIdentifier" : 63946430,
       "probSerializedValue" : "InN0cmluZyI=",
       "mockIds" : [ ],
       "exception" : false,
@@ -68,48 +82,5 @@
       }
     } ]
   },
-  "declaredMockMap" : {
-    "org.unlogged.demo.gradle.service.FutureService#doSomething#()Ljava/util/concurrent/CompletableFuture;" : [ {
-      "id" : "68e5713c-b89f-4543-9cc8-9890cca21d4e",
-      "name" : "mock response for call to futureService.doSomething()",
-      "fieldTypeName" : "org.unlogged.demo.gradle.service.FutureService",
-      "sourceClassName" : "org.unlogged.demo.gradle.controller.FutureController",
-      "fieldName" : "futureService",
-      "methodName" : "doSomething",
-      "whenParameter" : [ ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "",
-          "returnValueType" : "REAL",
-          "className" : "java.util.concurrent.CompletableFuture"
-        },
-        "methodExitType" : "NORMAL"
-      } ],
-      "methodHashKey" : "org.unlogged.demo.gradle.service.FutureService#doSomething#()Ljava/util/concurrent/CompletableFuture;"
-    } ],
-    "org.unlogged.demo.gradle.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;" : [ {
-      "id" : "f63811b6-8e4f-4513-9cd7-606a70065778",
-      "name" : "mock response for call to futureService.doSomethingOptional(s1)",
-      "fieldTypeName" : "org.unlogged.demo.gradle.service.FutureService",
-      "sourceClassName" : "org.unlogged.demo.gradle.controller.FutureController",
-      "fieldName" : "futureService",
-      "methodName" : "doSomethingOptional",
-      "whenParameter" : [ {
-        "name" : null,
-        "type" : "ANY_OF_TYPE",
-        "value" : "java.lang.String"
-      } ],
-      "thenParameter" : [ {
-        "returnParameter" : {
-          "declaredMocks" : [ ],
-          "value" : "\"string\"",
-          "returnValueType" : "REAL",
-          "className" : "java.util.Optional"
-        },
-        "methodExitType" : "NORMAL"
-      } ],
-      "methodHashKey" : "org.unlogged.demo.gradle.service.FutureService#doSomethingOptional#(Ljava/lang/String;)Ljava/util/Optional;"
-    } ]
-  }
+  "declaredMockMap" : { }
 }

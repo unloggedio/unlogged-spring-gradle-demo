@@ -1,74 +1,63 @@
 {
   "classname" : "org.unlogged.demo.gradle.service.CustomerService",
   "storedCandidateMap" : {
-    "org.unlogged.demo.gradle.service.CustomerService#generateReferralCodes#()Ljava/util/ArrayList;" : [ {
-      "lineNumbers" : [ 51, 52, 53, 54, 56, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16, 11, 12, 13, 14, 15, 16 ],
+    "org.unlogged.demo.gradle.service.CustomerService#fetchCustomerProfile#(J)V" : [ {
+      "lineNumbers" : [ 27, 28, 18 ],
       "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"jwivnpgphp\"",
-          "id" : "96b43e15-5e16-4dc5-8184-7a7c8dc9ad28",
-          "assertionType" : "EQUAL",
-          "key" : "/0"
-        }, {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"hjeospuomb\"",
-          "id" : "ccd32014-4b93-4e46-b6c4-a26f85cfc251",
-          "assertionType" : "EQUAL",
-          "key" : "/1"
-        }, {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"qtfxbxjaaf\"",
-          "id" : "fb86aeda-c1c2-4283-a774-bfa252930ab4",
-          "assertionType" : "EQUAL",
-          "key" : "/2"
-        }, {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"gqonhfdxyj\"",
-          "id" : "50a7a44f-8d5b-4c58-9597-725b22b04aa0",
-          "assertionType" : "EQUAL",
-          "key" : "/3"
-        }, {
-          "subAssertions" : [ ],
-          "expression" : "SELF",
-          "expectedValue" : "\"orwhgluaxo\"",
-          "id" : "021ca07b-9a0c-4b8c-8930-6fe11ee003bb",
-          "assertionType" : "EQUAL",
-          "key" : "/4"
-        } ],
+        "subAssertions" : [ ],
         "expression" : "SELF",
-        "expectedValue" : "true",
-        "id" : "f5279443-6949-4ea5-8353-a53984c7e291",
+        "expectedValue" : null,
+        "id" : "df696827-0ac5-4c94-b9b8-51e3cef86faa",
         "assertionType" : "ALLOF",
-        "key" : "/"
+        "key" : null
       },
-      "candidateId" : "92710c0c-8e9e-41c6-9969-3601214e4094",
-      "name" : "saved on 2024-02-28 12:48",
+      "candidateId" : "90c8d513-39c5-4090-ba35-d905ff9254a3",
+      "name" : "saved on 2024-02-29 16:53",
       "description" : null,
-      "methodArguments" : [ ],
-      "returnValue" : "[\"jwivnpgphp\",\"hjeospuomb\",\"qtfxbxjaaf\",\"gqonhfdxyj\",\"orwhgluaxo\"]",
-      "returnValueClassname" : "java.util.ArrayList",
+      "methodArguments" : [ "0" ],
+      "returnValue" : "null",
+      "returnValueClassname" : null,
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 69090890788624,
+        "timestamp" : 113210389523216,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : 106190834,
-      "probSerializedValue" : "WyJqd2l2bnBncGhwIiwiaGplb3NwdW9tYiIsInF0ZnhieGphYWYiLCJncW9uaGZkeHlqIiwib3J3aGdsdWF4byJd",
-      "mockIds" : [ ],
+      "sessionIdentifier" : -565868928,
+      "probSerializedValue" : "bnVsbA==",
+      "mockIds" : [ "2b31d0be-74ae-4f3d-9f36-a151a4770a65" ],
       "exception" : false,
       "method" : {
-        "name" : "generateReferralCodes",
-        "signature" : "()Ljava/util/ArrayList;",
+        "name" : "fetchCustomerProfile",
+        "signature" : "(J)V",
         "className" : "org.unlogged.demo.gradle.service.CustomerService",
         "methodHash" : 0
       }
     } ]
   },
-  "declaredMockMap" : { }
+  "declaredMockMap" : {
+    "org.unlogged.demo.gradle.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "id" : "a7b37af8-7057-48bb-9670-f4adb8cd8b88",
+      "name" : "mock response for call to customerService.saveNewCustomer(saveRequest)",
+      "fieldTypeName" : "org.unlogged.demo.gradle.service.CustomerService",
+      "sourceClassName" : "org.unlogged.demo.gradle.controller.CustomerController",
+      "fieldName" : "customerService",
+      "methodName" : "saveNewCustomer",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.gradle.models.CustomerProfileRequest"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "{\"customerid\":10,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"kxzkxzcbef\",\"dttstwjngz\",\"lixzfmwlkb\",\"irgmhbwobf\",\"armitnmgyy\"]}",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.gradle.service.CustomerService#saveNewCustomer#(Lorg/unlogged/demo/gradle/models/CustomerProfileRequest;)Lorg/unlogged/demo/gradle/models/CustomerProfile;"
+    } ]
+  }
 }

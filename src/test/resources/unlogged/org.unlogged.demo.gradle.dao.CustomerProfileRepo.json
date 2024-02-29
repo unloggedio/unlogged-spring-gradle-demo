@@ -2,24 +2,28 @@
   "classname" : "org.unlogged.demo.gradle.dao.CustomerProfileRepo",
   "storedCandidateMap" : { },
   "declaredMockMap" : {
-    "org.unlogged.demo.gradle.dao.CustomerProfileRepo#findAll#()Ljava/util/List;" : [ {
-      "id" : "44ae43fd-6749-4091-8ec9-5223c5bd6aeb",
-      "name" : "mock response for call to customerProfileRepo.findAll()",
+    "org.unlogged.demo.gradle.dao.CustomerProfileRepo#save#(Lorg/unlogged/demo/gradle/models/CustomerProfile;)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "id" : "8b5a2f8b-3204-4dea-882b-6f2bf0f92cbf",
+      "name" : "mock response for call to customerProfileRepo.save(customerProfile)",
       "fieldTypeName" : "org.unlogged.demo.gradle.dao.CustomerProfileRepo",
       "sourceClassName" : "org.unlogged.demo.gradle.service.DeliveryService",
       "fieldName" : "customerProfileRepo",
-      "methodName" : "findAll",
-      "whenParameter" : [ ],
+      "methodName" : "save",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "org.unlogged.demo.gradle.models.CustomerProfile"
+      } ],
       "thenParameter" : [ {
         "returnParameter" : {
           "declaredMocks" : [ ],
-          "value" : "[{\"customerid\":10,\"customername\":null,\"dateofbirth\":null,\"email\":null,\"contactnumber\":null,\"address\":null,\"referralcodes\":null}]",
+          "value" : "{\"customerid\":0,\"customername\":\"string\",\"dateofbirth\":\"string\",\"email\":\"string\",\"contactnumber\":\"string\",\"address\":\"string\",\"referralcodes\":[\"string\"]}",
           "returnValueType" : "REAL",
-          "className" : "java.util.List"
+          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
         },
         "methodExitType" : "NORMAL"
       } ],
-      "methodHashKey" : "org.unlogged.demo.gradle.dao.CustomerProfileRepo#findAll#()Ljava/util/List;"
+      "methodHashKey" : "org.unlogged.demo.gradle.dao.CustomerProfileRepo#save#(Lorg/unlogged/demo/gradle/models/CustomerProfile;)Lorg/unlogged/demo/gradle/models/CustomerProfile;"
     } ]
   }
 }

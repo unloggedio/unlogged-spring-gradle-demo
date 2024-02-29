@@ -1,0 +1,29 @@
+{
+  "classname" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
+  "storedCandidateMap" : { },
+  "declaredMockMap" : {
+    "org.unlogged.demo.gradle.repository.CustomerProfileRepository#fetchCustomerProfile#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;" : [ {
+      "id" : "2b31d0be-74ae-4f3d-9f36-a151a4770a65",
+      "name" : "mock response for call to customerProfileRepository.fetchCustomerProfile(id)",
+      "fieldTypeName" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository",
+      "sourceClassName" : "org.unlogged.demo.gradle.service.CustomerService",
+      "fieldName" : "customerProfileRepository",
+      "methodName" : "fetchCustomerProfile",
+      "whenParameter" : [ {
+        "name" : null,
+        "type" : "ANY_OF_TYPE",
+        "value" : "J"
+      } ],
+      "thenParameter" : [ {
+        "returnParameter" : {
+          "declaredMocks" : [ ],
+          "value" : "null",
+          "returnValueType" : "REAL",
+          "className" : "org.unlogged.demo.gradle.models.CustomerProfile"
+        },
+        "methodExitType" : "NORMAL"
+      } ],
+      "methodHashKey" : "org.unlogged.demo.gradle.repository.CustomerProfileRepository#fetchCustomerProfile#(J)Lorg/unlogged/demo/gradle/models/CustomerProfile;"
+    } ]
+  }
+}

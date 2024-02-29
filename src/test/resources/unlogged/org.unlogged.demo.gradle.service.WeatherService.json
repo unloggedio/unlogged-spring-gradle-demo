@@ -8,603 +8,266 @@
           "subAssertions" : [ {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "\"String Prairie\"",
-            "id" : "280c526d-7f38-46f8-829b-131c2ed55b3c",
+            "expectedValue" : "London",
+            "id" : "9f5379a7-b4c9-405c-884d-4a6656943162",
             "assertionType" : "EQUAL",
             "key" : "/location/name"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "\"Texas\"",
-            "id" : "8239738c-eda0-40f5-98b8-5e7b6b61570f",
+            "expectedValue" : "City of London, Greater London",
+            "id" : "3c4b7b20-b1c4-4891-b14e-8bc2d7bdc050",
             "assertionType" : "EQUAL",
             "key" : "/location/region"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "\"United States of America\"",
-            "id" : "74ec41e0-7588-4834-9107-04cde84093a0",
+            "expectedValue" : "United Kingdom",
+            "id" : "2c455fb5-f66e-4d15-a8ab-8ee9ed42008a",
             "assertionType" : "EQUAL",
             "key" : "/location/country"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "29.89",
-            "id" : "3f2d7bfc-a49e-46af-83f7-c094623df4d6",
+            "expectedValue" : "51.52",
+            "id" : "1d196828-3cbc-4bce-903c-869ab6faf974",
             "assertionType" : "EQUAL",
             "key" : "/location/lat"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "-97.35",
-            "id" : "507f537d-0329-4f1f-b869-ddde33603b3d",
+            "expectedValue" : "-0.11",
+            "id" : "61336062-e7a2-4a13-a3ec-6bb7566773a1",
             "assertionType" : "EQUAL",
             "key" : "/location/lon"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "\"America/Chicago\"",
-            "id" : "a9b65b38-7559-482d-8e1c-473a3152e5a8",
+            "expectedValue" : "Europe/London",
+            "id" : "2894b6f9-b81a-4a3e-8801-482a960a7afe",
             "assertionType" : "EQUAL",
             "key" : "/location/tz_id"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "1709105082",
-            "id" : "c2e880bf-4870-4c11-8ab5-207071e59767",
+            "expectedValue" : "1709205795",
+            "id" : "05882df1-7ada-4850-86d9-4d8cdee93738",
             "assertionType" : "EQUAL",
             "key" : "/location/localtime_epoch"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "\"2024-02-28 1:24\"",
-            "id" : "2031467d-a7b2-40d2-8ec1-de5b9ec2d963",
+            "expectedValue" : "2024-02-29 11:23",
+            "id" : "f6fb25c1-7800-441d-b3c3-e534391795d3",
             "assertionType" : "EQUAL",
             "key" : "/location/localtime"
           } ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "84d903a7-a60e-4af4-9a62-908141508984",
+          "id" : "c854bdf3-866f-417f-b8c2-725d56d1b812",
           "assertionType" : "ALLOF",
           "key" : "/location"
         }, {
           "subAssertions" : [ {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "20.0",
-            "id" : "04618276-afb5-4283-b32a-bfd45f734c79",
+            "expectedValue" : "10.0",
+            "id" : "80a6a21d-35f5-437a-8c78-b5a04dde2f9d",
             "assertionType" : "EQUAL",
             "key" : "/current/temp_c"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "68.0",
-            "id" : "779d0dcf-bf6f-47d2-9b80-0c1fed59a96c",
+            "expectedValue" : "50.0",
+            "id" : "61d3475b-12b1-4ac2-b700-801bd67a4862",
             "assertionType" : "EQUAL",
             "key" : "/current/temp_f"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "0",
-            "id" : "3aca7f50-7079-4153-88d6-9398242aa281",
+            "expectedValue" : "1",
+            "id" : "f3e2c7a6-e3e1-4f0c-8170-9bd08f423b92",
             "assertionType" : "EQUAL",
             "key" : "/current/is_day"
           }, {
             "subAssertions" : [ {
               "subAssertions" : [ ],
               "expression" : "SELF",
-              "expectedValue" : "\"Partly cloudy\"",
-              "id" : "e4376c9c-b2f2-4f56-ad31-3ebd34abb078",
+              "expectedValue" : "Light drizzle",
+              "id" : "27dfcc6d-5ba1-4578-801b-3e971d5c8ccc",
               "assertionType" : "EQUAL",
               "key" : "/current/condition/text"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
-              "expectedValue" : "\"//cdn.weatherapi.com/weather/64x64/night/116.png\"",
-              "id" : "74b3d7c5-9496-4b80-97e7-75f3b3021d6c",
+              "expectedValue" : "//cdn.weatherapi.com/weather/64x64/day/266.png",
+              "id" : "8bfee874-ec9f-4f44-99a4-cee5f5a22081",
               "assertionType" : "EQUAL",
               "key" : "/current/condition/icon"
             }, {
               "subAssertions" : [ ],
               "expression" : "SELF",
-              "expectedValue" : "1003",
-              "id" : "bdef9aa3-6b9e-4b5f-85c6-fdc29502f479",
+              "expectedValue" : "1153",
+              "id" : "dd630e26-4dfa-4891-beb7-29d8b4cced6b",
               "assertionType" : "EQUAL",
               "key" : "/current/condition/code"
             } ],
             "expression" : "SELF",
             "expectedValue" : "true",
-            "id" : "c99f86cb-4ede-4f60-8870-f75eab2db60d",
+            "id" : "3e5842c0-539c-4534-b968-e5414a1fdc0f",
             "assertionType" : "ALLOF",
             "key" : "/current/condition"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "4.3",
-            "id" : "efdd94c6-b272-45d4-a2bb-8cbbd074612a",
+            "expectedValue" : "8.1",
+            "id" : "22b8302a-4f7d-4af8-bb48-8fac05c75220",
             "assertionType" : "EQUAL",
             "key" : "/current/wind_mph"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "6.8",
-            "id" : "6b4bbf94-3699-43aa-990f-15423cf784e1",
+            "expectedValue" : "13.0",
+            "id" : "b3bc2b67-63f8-418d-9fc3-71aa7500cd36",
             "assertionType" : "EQUAL",
             "key" : "/current/wind_kph"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "200",
-            "id" : "c022f0b2-1df8-46db-9576-c533d8b11536",
+            "expectedValue" : "310",
+            "id" : "abbae3db-4dd3-43f9-9b48-b44ccf8f28db",
             "assertionType" : "EQUAL",
             "key" : "/current/wind_degree"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "\"SSW\"",
-            "id" : "457b7917-8556-4abc-adee-d21d54fd5eb7",
+            "expectedValue" : "NW",
+            "id" : "a7ff3ec4-bf57-4c22-af42-da99a2c0e3c1",
             "assertionType" : "EQUAL",
             "key" : "/current/wind_dir"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "1008.0",
-            "id" : "2df803d7-e362-4124-b10a-8497c9de687c",
+            "expectedValue" : "1003.0",
+            "id" : "940a636f-8f59-4c76-8672-1b53afc5ba71",
             "assertionType" : "EQUAL",
             "key" : "/current/pressure_mb"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "29.76",
-            "id" : "33820d75-b083-4800-be65-f0db2e40d9f1",
+            "expectedValue" : "29.62",
+            "id" : "0958479f-d2b3-4c48-aa58-af5be721e58b",
             "assertionType" : "EQUAL",
             "key" : "/current/pressure_in"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "0.0",
-            "id" : "51bc51b7-5cf4-4dbd-af5b-fedcfb9d98fc",
+            "expectedValue" : "0.08",
+            "id" : "d5a34c5c-369f-40e5-a921-a96276b04d37",
             "assertionType" : "EQUAL",
             "key" : "/current/precip_mm"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "0.0",
-            "id" : "1f4e5f64-3328-4115-9bf7-78da46736860",
+            "id" : "25593916-71a4-4117-afb3-b99c3d8c7300",
             "assertionType" : "EQUAL",
             "key" : "/current/precip_in"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "96",
-            "id" : "022e03ca-3c6b-4cb9-881f-d5cf64061990",
+            "expectedValue" : "94",
+            "id" : "2221ae41-598d-4e9e-9b64-925a3dabdfb6",
             "assertionType" : "EQUAL",
             "key" : "/current/humidity"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
             "expectedValue" : "75",
-            "id" : "7a739db2-2d50-4bb3-ab09-f9c1d1554c15",
+            "id" : "2be11afc-baee-451b-8511-a9570283059e",
             "assertionType" : "EQUAL",
             "key" : "/current/cloud"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "20.0",
-            "id" : "b495cae4-b4fa-4970-9872-f99de873540a",
+            "expectedValue" : "8.1",
+            "id" : "df7d6d21-78b5-44f2-be4d-c4d9235ac33c",
             "assertionType" : "EQUAL",
             "key" : "/current/feelslike_c"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "68.0",
-            "id" : "1da48502-fa31-4f2c-92a9-57b6ef92ce4b",
+            "expectedValue" : "46.6",
+            "id" : "44dcc3a1-9e39-49ab-9dca-8cd0215486d0",
             "assertionType" : "EQUAL",
             "key" : "/current/feelslike_f"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "11.0",
-            "id" : "e589613f-fbe9-4513-8642-38997ebd7ef7",
+            "expectedValue" : "3.7",
+            "id" : "d363615a-6976-418d-9267-ef484ffa8b2c",
             "assertionType" : "EQUAL",
             "key" : "/current/vis_km"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "6.0",
-            "id" : "4ba616ec-2296-433e-b34e-7b68476b55eb",
+            "expectedValue" : "2.0",
+            "id" : "79c020d0-e06b-47ba-9177-674be9ba9fa1",
             "assertionType" : "EQUAL",
             "key" : "/current/vis_miles"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "1.0",
-            "id" : "92571312-821f-4855-a643-f23ab0673ca4",
+            "expectedValue" : "2.0",
+            "id" : "ec402c8c-cfc0-4604-ab77-6ced24b50f35",
             "assertionType" : "EQUAL",
             "key" : "/current/uv"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "11.1",
-            "id" : "88bdff56-4f54-473e-a7b6-b46b3f6760ce",
+            "expectedValue" : "11.2",
+            "id" : "69399b9c-507b-4de0-a016-b3b1100ead82",
             "assertionType" : "EQUAL",
             "key" : "/current/gust_mph"
           }, {
             "subAssertions" : [ ],
             "expression" : "SELF",
-            "expectedValue" : "17.8",
-            "id" : "d878f4c1-840c-4f67-b452-a2cae15ab62a",
+            "expectedValue" : "18.0",
+            "id" : "105248d7-55ce-4c32-9011-35407a52b33a",
             "assertionType" : "EQUAL",
             "key" : "/current/gust_kph"
           } ],
           "expression" : "SELF",
           "expectedValue" : "true",
-          "id" : "8979daf1-1faa-4400-bc05-eb6eacec5364",
+          "id" : "db4bcb9c-97eb-4877-bd26-c013b2938ba3",
           "assertionType" : "ALLOF",
           "key" : "/current"
         } ],
         "expression" : "SELF",
         "expectedValue" : "true",
-        "id" : "7b41cb57-1808-431d-ae8c-14b089a0ece5",
+        "id" : "7f723fd9-2b83-4c8e-a912-f158ecf17e58",
         "assertionType" : "ALLOF",
         "key" : "/"
       },
-      "candidateId" : "36c0fc30-c768-4937-b30d-b1bdbbb38922",
-      "name" : "saved on 2024-02-28 12:55",
+      "candidateId" : "cb53c6ca-1694-42f7-b612-34277142375f",
+      "name" : "saved on 2024-02-29 16:54",
       "description" : null,
-      "methodArguments" : [ "\"string\"" ],
-      "returnValue" : "{\"location\":{\"name\":\"String Prairie\",\"region\":\"Texas\",\"country\":\"United States of America\",\"lat\":29.89,\"lon\":-97.35,\"tz_id\":\"America/Chicago\",\"localtime_epoch\":1709105082,\"localtime\":\"2024-02-28 1:24\"},\"current\":{\"temp_c\":20.0,\"temp_f\":68.0,\"is_day\":0,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/116.png\",\"code\":1003},\"wind_mph\":4.3,\"wind_kph\":6.8,\"wind_degree\":200,\"wind_dir\":\"SSW\",\"pressure_mb\":1008.0,\"pressure_in\":29.76,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":96,\"cloud\":75,\"feelslike_c\":20.0,\"feelslike_f\":68.0,\"vis_km\":11.0,\"vis_miles\":6.0,\"uv\":1.0,\"gust_mph\":11.1,\"gust_kph\":17.8}}",
+      "methodArguments" : [ "\"london\"" ],
+      "returnValue" : "{\"location\":{\"name\":\"London\",\"region\":\"City of London, Greater London\",\"country\":\"United Kingdom\",\"lat\":51.52,\"lon\":-0.11,\"tz_id\":\"Europe/London\",\"localtime_epoch\":1709205795,\"localtime\":\"2024-02-29 11:23\"},\"current\":{\"temp_c\":10.0,\"temp_f\":50.0,\"is_day\":1,\"condition\":{\"text\":\"Light drizzle\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/day/266.png\",\"code\":1153},\"wind_mph\":8.1,\"wind_kph\":13.0,\"wind_degree\":310,\"wind_dir\":\"NW\",\"pressure_mb\":1003.0,\"pressure_in\":29.62,\"precip_mm\":0.08,\"precip_in\":0.0,\"humidity\":94,\"cloud\":75,\"feelslike_c\":8.1,\"feelslike_f\":46.6,\"vis_km\":3.7,\"vis_miles\":2.0,\"uv\":2.0,\"gust_mph\":11.2,\"gust_kph\":18.0}}",
       "returnValueClassname" : "org.unlogged.demo.gradle.models.weather.WeatherInfo",
       "metadata" : {
         "recordedBy" : "testerfresher",
         "hostMachineName" : "testerfresher",
-        "timestamp" : 69539556870628,
+        "timestamp" : 113321178685621,
         "candidateStatus" : "NA"
       },
-      "sessionIdentifier" : -132760668,
-      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiU3RyaW5nIFByYWlyaWUiLCJyZWdpb24iOiJUZXhhcyIsImNvdW50cnkiOiJVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EiLCJsYXQiOjI5Ljg5LCJsb24iOi05Ny4zNSwidHpfaWQiOiJBbWVyaWNhL0NoaWNhZ28iLCJsb2NhbHRpbWVfZXBvY2giOjE3MDkxMDUwODIsImxvY2FsdGltZSI6IjIwMjQtMDItMjggMToyNCJ9LCJjdXJyZW50Ijp7InRlbXBfYyI6MjAuMCwidGVtcF9mIjo2OC4wLCJpc19kYXkiOjAsImNvbmRpdGlvbiI6eyJ0ZXh0IjoiUGFydGx5IGNsb3VkeSIsImljb24iOiIvL2Nkbi53ZWF0aGVyYXBpLmNvbS93ZWF0aGVyLzY0eDY0L25pZ2h0LzExNi5wbmciLCJjb2RlIjoxMDAzfSwid2luZF9tcGgiOjQuMywid2luZF9rcGgiOjYuOCwid2luZF9kZWdyZWUiOjIwMCwid2luZF9kaXIiOiJTU1ciLCJwcmVzc3VyZV9tYiI6MTAwOC4wLCJwcmVzc3VyZV9pbiI6MjkuNzYsInByZWNpcF9tbSI6MC4wLCJwcmVjaXBfaW4iOjAuMCwiaHVtaWRpdHkiOjk2LCJjbG91ZCI6NzUsImZlZWxzbGlrZV9jIjoyMC4wLCJmZWVsc2xpa2VfZiI6NjguMCwidmlzX2ttIjoxMS4wLCJ2aXNfbWlsZXMiOjYuMCwidXYiOjEuMCwiZ3VzdF9tcGgiOjExLjEsImd1c3Rfa3BoIjoxNy44fX0=",
+      "sessionIdentifier" : -1597741671,
+      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiTG9uZG9uIiwicmVnaW9uIjoiQ2l0eSBvZiBMb25kb24sIEdyZWF0ZXIgTG9uZG9uIiwiY291bnRyeSI6IlVuaXRlZCBLaW5nZG9tIiwibGF0Ijo1MS41MiwibG9uIjotMC4xMSwidHpfaWQiOiJFdXJvcGUvTG9uZG9uIiwibG9jYWx0aW1lX2Vwb2NoIjoxNzA5MjA1Nzk1LCJsb2NhbHRpbWUiOiIyMDI0LTAyLTI5IDExOjIzIn0sImN1cnJlbnQiOnsidGVtcF9jIjoxMC4wLCJ0ZW1wX2YiOjUwLjAsImlzX2RheSI6MSwiY29uZGl0aW9uIjp7InRleHQiOiJMaWdodCBkcml6emxlIiwiaWNvbiI6Ii8vY2RuLndlYXRoZXJhcGkuY29tL3dlYXRoZXIvNjR4NjQvZGF5LzI2Ni5wbmciLCJjb2RlIjoxMTUzfSwid2luZF9tcGgiOjguMSwid2luZF9rcGgiOjEzLjAsIndpbmRfZGVncmVlIjozMTAsIndpbmRfZGlyIjoiTlciLCJwcmVzc3VyZV9tYiI6MTAwMy4wLCJwcmVzc3VyZV9pbiI6MjkuNjIsInByZWNpcF9tbSI6MC4wOCwicHJlY2lwX2luIjowLjAsImh1bWlkaXR5Ijo5NCwiY2xvdWQiOjc1LCJmZWVsc2xpa2VfYyI6OC4xLCJmZWVsc2xpa2VfZiI6NDYuNiwidmlzX2ttIjozLjcsInZpc19taWxlcyI6Mi4wLCJ1diI6Mi4wLCJndXN0X21waCI6MTEuMiwiZ3VzdF9rcGgiOjE4LjB9fQ==",
       "mockIds" : [ ],
       "exception" : false,
       "method" : {
         "name" : "getWeatherForAddress",
         "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/gradle/models/weather/WeatherInfo;",
-        "className" : "org.unlogged.demo.gradle.service.WeatherService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.gradle.service.WeatherService#getWeatherinfo#(Ljava/lang/String;)Ljava/lang/String;" : [ {
-      "lineNumbers" : [ 31, 32, 33, 34, 35, 37, 42, 43 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"String Prairie\\\",\\\"region\\\":\\\"Texas\\\",\\\"country\\\":\\\"United States of America\\\",\\\"lat\\\":29.89,\\\"lon\\\":-97.35,\\\"tz_id\\\":\\\"America/Chicago\\\",\\\"localtime_epoch\\\":1709105082,\\\"localtime\\\":\\\"2024-02-28 1:24\\\"},\\\"current\\\":{\\\"temp_c\\\":20.0,\\\"temp_f\\\":68.0,\\\"is_day\\\":0,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/night/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":4.3,\\\"wind_kph\\\":6.8,\\\"wind_degree\\\":200,\\\"wind_dir\\\":\\\"SSW\\\",\\\"pressure_mb\\\":1008.0,\\\"pressure_in\\\":29.76,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":96,\\\"cloud\\\":75,\\\"feelslike_c\\\":20.0,\\\"feelslike_f\\\":68.0,\\\"vis_km\\\":11.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":1.0,\\\"gust_mph\\\":11.1,\\\"gust_kph\\\":17.8}}\"",
-        "id" : "b9ca4d45-0421-4d6f-91b7-5fa00a483adc",
-        "assertionType" : "EQUAL",
-        "key" : "/"
-      },
-      "candidateId" : "feebdffd-5d37-4423-87e5-a775e44f7363",
-      "name" : "saved on 2024-02-28 12:56",
-      "description" : null,
-      "methodArguments" : [ "\"string\"" ],
-      "returnValue" : "\"{\\\"location\\\":{\\\"name\\\":\\\"String Prairie\\\",\\\"region\\\":\\\"Texas\\\",\\\"country\\\":\\\"United States of America\\\",\\\"lat\\\":29.89,\\\"lon\\\":-97.35,\\\"tz_id\\\":\\\"America/Chicago\\\",\\\"localtime_epoch\\\":1709105082,\\\"localtime\\\":\\\"2024-02-28 1:24\\\"},\\\"current\\\":{\\\"temp_c\\\":20.0,\\\"temp_f\\\":68.0,\\\"is_day\\\":0,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/night/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":4.3,\\\"wind_kph\\\":6.8,\\\"wind_degree\\\":200,\\\"wind_dir\\\":\\\"SSW\\\",\\\"pressure_mb\\\":1008.0,\\\"pressure_in\\\":29.76,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":96,\\\"cloud\\\":75,\\\"feelslike_c\\\":20.0,\\\"feelslike_f\\\":68.0,\\\"vis_km\\\":11.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":1.0,\\\"gust_mph\\\":11.1,\\\"gust_kph\\\":17.8}}\"",
-      "returnValueClassname" : "java.lang.String",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 69539556994056,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 2081043868,
-      "probSerializedValue" : "IntcImxvY2F0aW9uXCI6e1wibmFtZVwiOlwiU3RyaW5nIFByYWlyaWVcIixcInJlZ2lvblwiOlwiVGV4YXNcIixcImNvdW50cnlcIjpcIlVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYVwiLFwibGF0XCI6MjkuODksXCJsb25cIjotOTcuMzUsXCJ0el9pZFwiOlwiQW1lcmljYS9DaGljYWdvXCIsXCJsb2NhbHRpbWVfZXBvY2hcIjoxNzA5MTA1MDgyLFwibG9jYWx0aW1lXCI6XCIyMDI0LTAyLTI4IDE6MjRcIn0sXCJjdXJyZW50XCI6e1widGVtcF9jXCI6MjAuMCxcInRlbXBfZlwiOjY4LjAsXCJpc19kYXlcIjowLFwiY29uZGl0aW9uXCI6e1widGV4dFwiOlwiUGFydGx5IGNsb3VkeVwiLFwiaWNvblwiOlwiLy9jZG4ud2VhdGhlcmFwaS5jb20vd2VhdGhlci82NHg2NC9uaWdodC8xMTYucG5nXCIsXCJjb2RlXCI6MTAwM30sXCJ3aW5kX21waFwiOjQuMyxcIndpbmRfa3BoXCI6Ni44LFwid2luZF9kZWdyZWVcIjoyMDAsXCJ3aW5kX2RpclwiOlwiU1NXXCIsXCJwcmVzc3VyZV9tYlwiOjEwMDguMCxcInByZXNzdXJlX2luXCI6MjkuNzYsXCJwcmVjaXBfbW1cIjowLjAsXCJwcmVjaXBfaW5cIjowLjAsXCJodW1pZGl0eVwiOjk2LFwiY2xvdWRcIjo3NSxcImZlZWxzbGlrZV9jXCI6MjAuMCxcImZlZWxzbGlrZV9mXCI6NjguMCxcInZpc19rbVwiOjExLjAsXCJ2aXNfbWlsZXNcIjo2LjAsXCJ1dlwiOjEuMCxcImd1c3RfbXBoXCI6MTEuMSxcImd1c3Rfa3BoXCI6MTcuOH19Ig==",
-      "mockIds" : [ ],
-      "exception" : false,
-      "method" : {
-        "name" : "getWeatherinfo",
-        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
-        "className" : "org.unlogged.demo.gradle.service.WeatherService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.gradle.service.WeatherService#convertToObject#(Ljava/lang/String;)Lorg/unlogged/demo/gradle/models/weather/WeatherInfo;" : [ {
-      "lineNumbers" : [ 21, 23, 24 ],
-      "testAssertions" : {
-        "subAssertions" : [ {
-          "subAssertions" : [ {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "\"String Prairie\"",
-            "id" : "ae2d2083-72fc-4788-aca3-1960b5e5f305",
-            "assertionType" : "EQUAL",
-            "key" : "/location/name"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "\"Texas\"",
-            "id" : "689e39d9-f7e3-4380-90b3-f937bdb6499d",
-            "assertionType" : "EQUAL",
-            "key" : "/location/region"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "\"United States of America\"",
-            "id" : "379314ed-9e55-4174-9c61-50f383a62d22",
-            "assertionType" : "EQUAL",
-            "key" : "/location/country"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "29.89",
-            "id" : "a1c90483-2290-4524-83c4-b336678e10d7",
-            "assertionType" : "EQUAL",
-            "key" : "/location/lat"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "-97.35",
-            "id" : "362bbf4f-70dd-4541-9f61-be758720be74",
-            "assertionType" : "EQUAL",
-            "key" : "/location/lon"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "\"America/Chicago\"",
-            "id" : "5e4e156a-ba85-4057-9a2b-bc7b3f254f0b",
-            "assertionType" : "EQUAL",
-            "key" : "/location/tz_id"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "1709105082",
-            "id" : "6a2843ca-6e3c-4ffa-92a7-d6218e62f2de",
-            "assertionType" : "EQUAL",
-            "key" : "/location/localtime_epoch"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "\"2024-02-28 1:24\"",
-            "id" : "0ecee5c7-0944-4fa2-898e-eee96da5d7f5",
-            "assertionType" : "EQUAL",
-            "key" : "/location/localtime"
-          } ],
-          "expression" : "SELF",
-          "expectedValue" : "true",
-          "id" : "8191ef6c-96b6-4d38-a3ac-369cc3dc6e15",
-          "assertionType" : "ALLOF",
-          "key" : "/location"
-        }, {
-          "subAssertions" : [ {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "20.0",
-            "id" : "abf4e5d0-6735-4efb-8944-868e5318fbb5",
-            "assertionType" : "EQUAL",
-            "key" : "/current/temp_c"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "68.0",
-            "id" : "0b731c5e-f303-40f1-a317-fb9a61fd85a8",
-            "assertionType" : "EQUAL",
-            "key" : "/current/temp_f"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "0",
-            "id" : "d174f977-5adc-4992-93b0-e63ffb2f02c9",
-            "assertionType" : "EQUAL",
-            "key" : "/current/is_day"
-          }, {
-            "subAssertions" : [ {
-              "subAssertions" : [ ],
-              "expression" : "SELF",
-              "expectedValue" : "\"Partly cloudy\"",
-              "id" : "692b9ecd-e748-4146-852a-99e3993d54a4",
-              "assertionType" : "EQUAL",
-              "key" : "/current/condition/text"
-            }, {
-              "subAssertions" : [ ],
-              "expression" : "SELF",
-              "expectedValue" : "\"//cdn.weatherapi.com/weather/64x64/night/116.png\"",
-              "id" : "efaaf1fb-9dac-4cd1-8712-be8301d572e5",
-              "assertionType" : "EQUAL",
-              "key" : "/current/condition/icon"
-            }, {
-              "subAssertions" : [ ],
-              "expression" : "SELF",
-              "expectedValue" : "1003",
-              "id" : "880de56f-7979-4bb5-ba07-8542c10a3bd5",
-              "assertionType" : "EQUAL",
-              "key" : "/current/condition/code"
-            } ],
-            "expression" : "SELF",
-            "expectedValue" : "true",
-            "id" : "c22b21f2-c75a-42f1-af27-2e3fc695c2e1",
-            "assertionType" : "ALLOF",
-            "key" : "/current/condition"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "4.3",
-            "id" : "b5d61047-570c-464d-af24-f523439650e2",
-            "assertionType" : "EQUAL",
-            "key" : "/current/wind_mph"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "6.8",
-            "id" : "c59a25b3-f189-43b6-8677-b171d53938dd",
-            "assertionType" : "EQUAL",
-            "key" : "/current/wind_kph"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "200",
-            "id" : "acbcf4b7-4dd9-4a3e-8c4e-1394fe686dfa",
-            "assertionType" : "EQUAL",
-            "key" : "/current/wind_degree"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "\"SSW\"",
-            "id" : "ae6e3921-9e71-43ed-b53c-ae4945781156",
-            "assertionType" : "EQUAL",
-            "key" : "/current/wind_dir"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "1008.0",
-            "id" : "7ba16ec8-da92-49e7-9b01-6906d0f9a3ea",
-            "assertionType" : "EQUAL",
-            "key" : "/current/pressure_mb"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "29.76",
-            "id" : "81bbb95f-0ff9-4adf-8c41-30e3f0404cc5",
-            "assertionType" : "EQUAL",
-            "key" : "/current/pressure_in"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "0.0",
-            "id" : "5d7e2b6a-cc81-4bde-9bf3-d7eeab5bf819",
-            "assertionType" : "EQUAL",
-            "key" : "/current/precip_mm"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "0.0",
-            "id" : "2aa098da-1c59-4d0c-8734-4096fb3d8c6d",
-            "assertionType" : "EQUAL",
-            "key" : "/current/precip_in"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "96",
-            "id" : "2d3171d0-3ac6-4231-9dc6-b89ca47b1e31",
-            "assertionType" : "EQUAL",
-            "key" : "/current/humidity"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "75",
-            "id" : "57be486b-adca-4250-8aaf-bacfbf4e3e41",
-            "assertionType" : "EQUAL",
-            "key" : "/current/cloud"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "20.0",
-            "id" : "41177353-ad7a-4171-bd35-9b92f1d6c977",
-            "assertionType" : "EQUAL",
-            "key" : "/current/feelslike_c"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "68.0",
-            "id" : "85b946fa-4ccf-49dd-9cdf-48ecee1214e1",
-            "assertionType" : "EQUAL",
-            "key" : "/current/feelslike_f"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "11.0",
-            "id" : "21fd2438-f7d3-4406-b705-7e3749c8c980",
-            "assertionType" : "EQUAL",
-            "key" : "/current/vis_km"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "6.0",
-            "id" : "42940c7f-a77a-4484-a98f-65d25e2d5c8c",
-            "assertionType" : "EQUAL",
-            "key" : "/current/vis_miles"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "1.0",
-            "id" : "3c178c5c-26e1-49df-9a20-d299d16c8bce",
-            "assertionType" : "EQUAL",
-            "key" : "/current/uv"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "11.1",
-            "id" : "60fde9e1-8da1-47a5-8805-945f301f0046",
-            "assertionType" : "EQUAL",
-            "key" : "/current/gust_mph"
-          }, {
-            "subAssertions" : [ ],
-            "expression" : "SELF",
-            "expectedValue" : "17.8",
-            "id" : "45cf1dec-f70a-4e65-ba6e-fc0a3b0db466",
-            "assertionType" : "EQUAL",
-            "key" : "/current/gust_kph"
-          } ],
-          "expression" : "SELF",
-          "expectedValue" : "true",
-          "id" : "8d897b2d-6b6b-4b5e-917c-c198bba2cb19",
-          "assertionType" : "ALLOF",
-          "key" : "/current"
-        } ],
-        "expression" : "SELF",
-        "expectedValue" : "true",
-        "id" : "64d9e143-e492-4a0c-95b1-8704a734f304",
-        "assertionType" : "ALLOF",
-        "key" : "/"
-      },
-      "candidateId" : "26284e0f-eee6-4b80-8409-e5a7b68bc5c2",
-      "name" : "saved on 2024-02-28 12:56",
-      "description" : null,
-      "methodArguments" : [ "\"{\\\"location\\\":{\\\"name\\\":\\\"String Prairie\\\",\\\"region\\\":\\\"Texas\\\",\\\"country\\\":\\\"United States of America\\\",\\\"lat\\\":29.89,\\\"lon\\\":-97.35,\\\"tz_id\\\":\\\"America/Chicago\\\",\\\"localtime_epoch\\\":1709105082,\\\"localtime\\\":\\\"2024-02-28 1:24\\\"},\\\"current\\\":{\\\"temp_c\\\":20.0,\\\"temp_f\\\":68.0,\\\"is_day\\\":0,\\\"condition\\\":{\\\"text\\\":\\\"Partly cloudy\\\",\\\"icon\\\":\\\"//cdn.weatherapi.com/weather/64x64/night/116.png\\\",\\\"code\\\":1003},\\\"wind_mph\\\":4.3,\\\"wind_kph\\\":6.8,\\\"wind_degree\\\":200,\\\"wind_dir\\\":\\\"SSW\\\",\\\"pressure_mb\\\":1008.0,\\\"pressure_in\\\":29.76,\\\"precip_mm\\\":0.0,\\\"precip_in\\\":0.0,\\\"humidity\\\":96,\\\"cloud\\\":75,\\\"feelslike_c\\\":20.0,\\\"feelslike_f\\\":68.0,\\\"vis_km\\\":11.0,\\\"vis_miles\\\":6.0,\\\"uv\\\":1.0,\\\"gust_mph\\\":11.1,\\\"gust_kph\\\":17.8}}\"" ],
-      "returnValue" : "{\"location\":{\"name\":\"String Prairie\",\"region\":\"Texas\",\"country\":\"United States of America\",\"lat\":29.89,\"lon\":-97.35,\"tz_id\":\"America/Chicago\",\"localtime_epoch\":1709105082,\"localtime\":\"2024-02-28 1:24\"},\"current\":{\"temp_c\":20.0,\"temp_f\":68.0,\"is_day\":0,\"condition\":{\"text\":\"Partly cloudy\",\"icon\":\"//cdn.weatherapi.com/weather/64x64/night/116.png\",\"code\":1003},\"wind_mph\":4.3,\"wind_kph\":6.8,\"wind_degree\":200,\"wind_dir\":\"SSW\",\"pressure_mb\":1008.0,\"pressure_in\":29.76,\"precip_mm\":0.0,\"precip_in\":0.0,\"humidity\":96,\"cloud\":75,\"feelslike_c\":20.0,\"feelslike_f\":68.0,\"vis_km\":11.0,\"vis_miles\":6.0,\"uv\":1.0,\"gust_mph\":11.1,\"gust_kph\":17.8}}",
-      "returnValueClassname" : "org.unlogged.demo.gradle.models.weather.WeatherInfo",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 69540172455954,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : 339349789,
-      "probSerializedValue" : "eyJsb2NhdGlvbiI6eyJuYW1lIjoiU3RyaW5nIFByYWlyaWUiLCJyZWdpb24iOiJUZXhhcyIsImNvdW50cnkiOiJVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EiLCJsYXQiOjI5Ljg5LCJsb24iOi05Ny4zNSwidHpfaWQiOiJBbWVyaWNhL0NoaWNhZ28iLCJsb2NhbHRpbWVfZXBvY2giOjE3MDkxMDUwODIsImxvY2FsdGltZSI6IjIwMjQtMDItMjggMToyNCJ9LCJjdXJyZW50Ijp7InRlbXBfYyI6MjAuMCwidGVtcF9mIjo2OC4wLCJpc19kYXkiOjAsImNvbmRpdGlvbiI6eyJ0ZXh0IjoiUGFydGx5IGNsb3VkeSIsImljb24iOiIvL2Nkbi53ZWF0aGVyYXBpLmNvbS93ZWF0aGVyLzY0eDY0L25pZ2h0LzExNi5wbmciLCJjb2RlIjoxMDAzfSwid2luZF9tcGgiOjQuMywid2luZF9rcGgiOjYuOCwid2luZF9kZWdyZWUiOjIwMCwid2luZF9kaXIiOiJTU1ciLCJwcmVzc3VyZV9tYiI6MTAwOC4wLCJwcmVzc3VyZV9pbiI6MjkuNzYsInByZWNpcF9tbSI6MC4wLCJwcmVjaXBfaW4iOjAuMCwiaHVtaWRpdHkiOjk2LCJjbG91ZCI6NzUsImZlZWxzbGlrZV9jIjoyMC4wLCJmZWVsc2xpa2VfZiI6NjguMCwidmlzX2ttIjoxMS4wLCJ2aXNfbWlsZXMiOjYuMCwidXYiOjEuMCwiZ3VzdF9tcGgiOjExLjEsImd1c3Rfa3BoIjoxNy44fX0=",
-      "mockIds" : [ ],
-      "exception" : false,
-      "method" : {
-        "name" : "convertToObject",
-        "signature" : "(Ljava/lang/String;)Lorg/unlogged/demo/gradle/models/weather/WeatherInfo;",
-        "className" : "org.unlogged.demo.gradle.service.WeatherService",
-        "methodHash" : 0
-      }
-    } ],
-    "org.unlogged.demo.gradle.service.WeatherService#getLocationFromAddress#(Ljava/lang/String;)Ljava/lang/String;" : [ {
-      "lineNumbers" : [ 47, 48, 49 ],
-      "testAssertions" : {
-        "subAssertions" : [ ],
-        "expression" : "SELF",
-        "expectedValue" : "\"string\"",
-        "id" : "f410e386-e90c-452a-a9a9-730d170a6949",
-        "assertionType" : "EQUAL",
-        "key" : "/"
-      },
-      "candidateId" : "a3ce4a66-1a7f-4a23-864c-280982cd60c2",
-      "name" : "saved on 2024-02-28 12:56",
-      "description" : null,
-      "methodArguments" : [ "\"string\"" ],
-      "returnValue" : "\"string\"",
-      "returnValueClassname" : "java.lang.String",
-      "metadata" : {
-        "recordedBy" : "testerfresher",
-        "hostMachineName" : "testerfresher",
-        "timestamp" : 69601368219397,
-        "candidateStatus" : "NA"
-      },
-      "sessionIdentifier" : -228257663,
-      "probSerializedValue" : "InN0cmluZyI=",
-      "mockIds" : [ ],
-      "exception" : false,
-      "method" : {
-        "name" : "getLocationFromAddress",
-        "signature" : "(Ljava/lang/String;)Ljava/lang/String;",
         "className" : "org.unlogged.demo.gradle.service.WeatherService",
         "methodHash" : 0
       }
