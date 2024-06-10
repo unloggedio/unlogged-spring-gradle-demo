@@ -1,0 +1,1 @@
+cd ../ && gradle clean bootRun
