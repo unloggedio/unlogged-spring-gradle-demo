@@ -56,4 +56,6 @@ replay_pid*
 ### VS Code ###
 .vscode/
 
+.DS_Store
+
 
