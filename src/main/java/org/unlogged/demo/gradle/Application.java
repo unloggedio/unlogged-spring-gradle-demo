@@ -9,9 +9,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 public class Application {
 
-	@Unlogged
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
 }
